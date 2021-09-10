@@ -36,7 +36,7 @@ export const pageQuery = graphql`
         tagline
         featuredImage {
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
+            gatsbyImageData(layout: CONSTRAINED, width: 540, height: 654)
           }
         }
         cta {
@@ -200,14 +200,14 @@ const HomePage = ({ data }) => {
       <div className="home-banner grids col-1 sm-2">
         <div>
           <h1 className="title">{frontmatter.title}</h1>
-          <p
+          {/* <p
             className="tagline"
             sx={{
               color: "muted",
             }}
           >
             {frontmatter.tagline}
-          </p>
+          </p> */}
           <div
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}

@@ -12,7 +12,7 @@
 }
 .site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   position: relative;
   padding: 30px 20px;
@@ -28,10 +28,10 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255, 255, 255, 0.6);
+    color: #000;
     text-decoration: none;
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: rgba(0, 0, 0, 0.6);
     }
   }
   a[aria-current="page"] {
