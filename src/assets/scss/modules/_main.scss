@@ -1,0 +1,76 @@
+.container {
+	max-width: 1440px;
+}
+
+.social-icons {
+	display: none;
+}
+
+.site-logo {
+  font-weight: bold;
+  a {
+    color: var(--theme-ui-colors-fontsColour);
+    text-decoration: none;
+    &:hover {
+      color: var(--theme-ui-colors-fontsColour);
+    }
+  }
+  @media (max-width: $breakpoint-lg) {
+    font-size: 20px;
+  }
+}
+
+.site-navigation a[aria-current="page"] {
+	color: var(--theme-ui-colors-fontsColour);
+}
+
+.site-header svg {
+	color: var(--theme-ui-colors-fontsColour);
+}
+
+.site-header button.search {
+	display: none;
+}
+
+.site-navigation a {
+	color: var(--theme-ui-colors-fontsColour);
+}
+
+.home-banner {
+
+	&_text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	&_links {
+		position: absolute;
+		bottom: -100%;
+	}
+
+	&_title {
+		font-size: 90px;
+		text-transform: uppercase;
+	}
+
+	.tk-blob {
+		position: absolute;
+    top: initial;
+    left: initial;
+    --fill: #e91e63;
+    width: 500px;
+    z-index: -1;
+		animation: blob-turn var(--time, 120s) linear infinite;
+	}
+
+	.tk-blob svg {
+		animation: blob-skew calc( var(--time, 120s) * 0.5) linear 0s infinite;
+	}
+
+	.tk-blob svg path {
+		animation: blob-scale calc( var(--time, 120s) * 0.5) ease-in-out 0s infinite;
+	}
+}

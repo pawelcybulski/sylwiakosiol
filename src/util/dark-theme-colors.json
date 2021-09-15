@@ -1,4 +1,5 @@
 {
   "siteColor": "#222",
-	"headerBg": "#FFF"
+	"headerBg": "#222",
+	"fontsColour": "#FFF"
 }
