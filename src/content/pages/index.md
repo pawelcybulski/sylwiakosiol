@@ -1,11 +1,10 @@
 ---
 template: index-page
 slug: /
-title: Sylwia Kosioł
-tagline: Skuteczna psychoterapia dla ciebie
+title: Skuteczna
+tagline: psychoterapia
 featuredImage: /assets/hero-image.png
 cta:
-  ctaText: Know more
+  ctaText: unów wizytę
   ctaLink: /about
 ---
-Skuteczna psychoterapia dla ciebie

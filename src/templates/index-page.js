@@ -205,14 +205,14 @@ const HomePage = ({ data }) => {
 						</svg>
 					</div>
           <h1 className="home-banner_title">{frontmatter.title}</h1>
-          {/* <p
-            className="tagline"
-            sx={{
-              color: "muted",
-            }}
+          <p
+            className="home-banner_subtitle"
           >
             {frontmatter.tagline}
-          </p> */}
+          </p>
+					<span className="home-banner_special">
+						dla Ciebie
+					</span>
           <div className="description" dangerouslySetInnerHTML={{ __html: html }}/>
 
 					<div className="home-banner_links">
