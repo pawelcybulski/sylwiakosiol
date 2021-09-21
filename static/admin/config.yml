@@ -79,7 +79,7 @@ collections:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Featured Image", name: "featuredImage", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - label: "CTA"
+          - label: "First link"
             name: "cta"
             widget: "object"
             fields:
@@ -89,6 +89,29 @@ collections:
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
+          - label: "Second link"
+            name: "ctaSecond"
+            widget: "object"
+            fields:
+              - name: "ctaText"
+                label: "CTA text"
+                widget: "string"
+              - name: "ctaLink"
+                label: "CTA Link"
+                widget: "string"
+          - { label: "ABout image", name: "aboutHomeImage", widget: "image" }
+          - label: "About link"
+            name: "ctaAbout"
+            widget: "object"
+            fields:
+              - name: "ctaText"
+                label: "CTA text"
+                widget: "string"
+              - name: "ctaLink"
+                label: "CTA Link"
+                widget: "string"
+          - { label: "About title", name: "aboutTitle", widget: "string" }
+          - { label: "About desc", name: "aboutDesc", widget: "string" }
       - label: "About"
         name: "about"
         file: "src/content/pages/about.md"

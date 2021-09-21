@@ -37,7 +37,6 @@
 }
 
 .home-banner {
-
 	&_text {
 		display: flex;
 		flex-direction: column;
@@ -91,5 +90,31 @@
 
 	.tk-blob svg path {
 		animation: blob-scale calc( var(--time, 120s) * 0.5) ease-in-out 0s infinite;
+	}
+}
+
+.home-about {
+	&_image {
+		img {
+			max-width: 500px;
+			max-height: 500px;
+			margin: 0 auto;
+			border: 10px solid red;
+			border-radius: 50%;
+		}
+	}
+
+	&_desc {
+		display: flex;
+		flex-direction: column;
+
+		p {
+			display: flex;
+			align-items: center;
+		}
+
+		a {
+			flex: 1 0 auto;
+		}
 	}
 }

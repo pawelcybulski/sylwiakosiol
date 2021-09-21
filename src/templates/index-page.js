@@ -34,12 +34,27 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tagline
-        featuredImage {
+        heroImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH, width: 540, height: 654)
           }
         }
-        cta {
+        ctaFirst {
+          ctaText
+          ctaLink
+        }
+        ctaSecond {
+          ctaText
+          ctaLink
+        }
+        aboutHomeImage {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH, width: 100, height: 100)
+          }
+        }
+				aboutTitle
+				aboutDesc
+        ctaAbout {
           ctaText
           ctaLink
         }
@@ -58,7 +73,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
-            featuredImage {
+            heroImage {
               childImageSharp {
                 gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
               }
@@ -73,8 +88,11 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
+  const heroImage = frontmatter.heroImage
+    ? frontmatter.heroImage.childImageSharp.gatsbyImageData
+    : ""
+	const aboutHomeImage = frontmatter.aboutHomeImage
+    ? frontmatter.aboutHomeImage.childImageSharp.gatsbyImageData
     : ""
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return (
@@ -217,26 +235,26 @@ const HomePage = ({ data }) => {
 
 					<div className="home-banner_links">
 						<Link
-							to={frontmatter.cta.ctaLink}
+							to={frontmatter.ctaFirst.ctaLink}
 							className="button"
 							sx={{
 								variant: "variants.button",
 							}}
 						>
-							{frontmatter.cta.ctaText}
+							{frontmatter.ctaFirst.ctaText}
 							<span className="icon -right">
 								<RiArrowRightSLine />
 							</span>
 						</Link>
 
 						<Link
-							to={frontmatter.cta.ctaLink}
-							className=""
+							to={frontmatter.ctaSecond.ctaLink}
+							className="button"
 							sx={{
 								variant: "variants.button",
 							}}
 						>
-							{frontmatter.cta.ctaText}
+							{frontmatter.ctaSecond.ctaText}
 							<span className="icon -right">
 								<RiArrowRightSLine />
 							</span>
@@ -252,9 +270,9 @@ const HomePage = ({ data }) => {
           </div>
         </div>
         <div className="home-banner_image">
-          {Image ? (
+          {heroImage ? (
             <GatsbyImage
-              image={Image}
+              image={heroImage}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image"
             />
@@ -263,6 +281,39 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
+			<div class="grids col-1 sm-2">
+				<div class="home-about_image">
+          {aboutHomeImage ? (
+            <GatsbyImage
+              image={aboutHomeImage}
+              alt={" Sylwia Kosioł "}
+              className=""
+            />
+          ) : (
+            ""
+          )}
+				</div>
+				<div class="home-about_desc">
+					<h2>{frontmatter.aboutTitle}</h2>
+					<p>
+						{frontmatter.aboutDesc}
+
+						<Link
+							to={frontmatter.ctaAbout.ctaLink}
+							className="button"
+							sx={{
+								variant: "variants.button",
+							}}
+						>
+							{frontmatter.ctaAbout.ctaText}
+							<span className="icon -right">
+								<RiArrowRightSLine />
+							</span>
+						</Link>
+					</p>
+
+				</div>
+			</div>
       <BlogListHome data={posts} />
     </Layout>
   )
