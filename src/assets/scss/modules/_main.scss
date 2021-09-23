@@ -1,5 +1,5 @@
 .container {
-	max-width: 1440px;
+	max-width: 1280px;
 }
 
 .social-icons {
@@ -24,12 +24,14 @@
 	color: var(--theme-ui-colors-fontsColour);
 }
 
-.site-header svg {
-	color: var(--theme-ui-colors-fontsColour);
-}
+.site-header {
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 0 auto;
 
-.site-header button.search {
-	display: none;
+	svg {
+		color: var(--theme-ui-colors-fontsColour);
+	}
 }
 
 .site-navigation a {
@@ -71,6 +73,7 @@
 	&_special {
 		font-family: 'playlistscript';
 		font-size: 70px;
+		transform: rotateZ(-5deg);			
 	}
 
 	.tk-blob {
@@ -94,27 +97,40 @@
 }
 
 .home-about {
+	&_header {
+		h2 {
+			font-size: 50px;
+			font-weight: 200;
+		}
+	}
+
 	&_image {
+		flex: 1 0 400px;
+
 		img {
-			max-width: 500px;
-			max-height: 500px;
+			max-width: 400px;
+			max-height: 400px;
 			margin: 0 auto;
-			border: 10px solid red;
+			border: 20px solid #e91e63;
 			border-radius: 50%;
 		}
 	}
 
-	&_desc {
+	&_content {
 		display: flex;
-		flex-direction: column;
+	}
+
+	&_desc {
+		padding-left: 50px;
 
 		p {
-			display: flex;
-			align-items: center;
-		}
-
-		a {
-			flex: 1 0 auto;
+			font-size: 22px;
+			line-height: 1.6em;
+			text-transform: none;
+			letter-spacing: 1px;
+			font-weight: normal;
+			font-style: italic;
+			color: #ae9e98;
 		}
 	}
 }

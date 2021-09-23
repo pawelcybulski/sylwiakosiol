@@ -25,34 +25,32 @@ export default class Search extends Component {
   render() {
     return (
       <div sx={searchStyle.searchField}>
-        <div>
-          <button
-            onClick={this.handleToggleClick}
-            className={this.state.showSearch ? "search is-active" : "search"}
-          >
-            <RiSearchLine />
-          </button>
-          <div sx={searchStyle.search} className="search-container">
-            <input
-              type="text"
-              placeholder="Search"
-              value={this.state.query}
-              onChange={this.search}
-              className="search-input"
-            />
-            <ul sx={searchStyle.searchResults}>
-              {this.state.results.map(page => (
-                <li key={page.id}>
-                  {page.template === "blog-post" ? (
-                    <Link to={page.slug}>{page.title}</Link>
-                  ) : (
-                    ""
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+				<button
+					onClick={this.handleToggleClick}
+					className={this.state.showSearch ? "search is-active" : "search"}
+				>
+					<RiSearchLine />
+				</button>
+				<div sx={searchStyle.search} className="search-container">
+					<input
+						type="text"
+						placeholder="Search"
+						value={this.state.query}
+						onChange={this.search}
+						className="search-input"
+					/>
+					<ul sx={searchStyle.searchResults}>
+						{this.state.results.map(page => (
+							<li key={page.id}>
+								{page.template === "blog-post" ? (
+									<Link to={page.slug}>{page.title}</Link>
+								) : (
+									""
+								)}
+							</li>
+						))}
+					</ul>
+				</div>
       </div>
     )
   }

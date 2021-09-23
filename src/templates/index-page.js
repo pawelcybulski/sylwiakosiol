@@ -281,40 +281,43 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-			<div class="grids col-1 sm-2">
-				<div class="home-about_image">
-          {aboutHomeImage ? (
-            <GatsbyImage
-              image={aboutHomeImage}
-              alt={" Sylwia Kosioł "}
-              className=""
-            />
-          ) : (
-            ""
-          )}
-				</div>
-				<div class="home-about_desc">
+			<div class="home-about">
+				<div class="home-about_header">
 					<h2>{frontmatter.aboutTitle}</h2>
-					<p>
-						{frontmatter.aboutDesc}
-
+				</div>
+				<div class="home-about_content">
+					<div class="home-about_image">
+						{aboutHomeImage ? (
+							<GatsbyImage
+								image={aboutHomeImage}
+								alt={" Sylwia Kosioł "}
+								className=""
+							/>
+						) : (
+							""
+						)}
+					</div>
+					<div class="home-about_desc">
+						
+						<p>
+							{frontmatter.aboutDesc}
+						</p>
 						<Link
-							to={frontmatter.ctaAbout.ctaLink}
-							className="button"
-							sx={{
-								variant: "variants.button",
-							}}
-						>
-							{frontmatter.ctaAbout.ctaText}
-							<span className="icon -right">
-								<RiArrowRightSLine />
-							</span>
-						</Link>
-					</p>
-
+						to={frontmatter.ctaAbout.ctaLink}
+						className="button"
+						sx={{
+							variant: "variants.button",
+						}}
+					>
+						{frontmatter.ctaAbout.ctaText}
+						<span className="icon -right">
+							<RiArrowRightSLine />
+						</span>
+					</Link>
+					</div>
 				</div>
 			</div>
-      <BlogListHome data={posts} />
+			<BlogListHome data={posts} />
     </Layout>
   )
 }

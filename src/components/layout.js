@@ -37,10 +37,10 @@ const Layout = ({ children, className, props }) => {
             <Search searchIndex={siteSearchIndex.index} />
           </div>
           <Navigation />
-        </div>
-        <div sx={layoutStyle.appearance}>
-          <Search searchIndex={siteSearchIndex.index} />
-          <Theme />
+					<div sx={layoutStyle.appearance}>
+						{/* <Search searchIndex={siteSearchIndex.index} /> */}
+						<Theme />
+        	</div>
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>
