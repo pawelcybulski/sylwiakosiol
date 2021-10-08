@@ -120,9 +120,9 @@ collections:
               label: "Template",
               name: "template",
               widget: "hidden",
-              default: "about-page",
+              default: "therapy-page",
             }
-          - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
+          - { label: "Slug", name: "slug", widget: "hidden", default: "/o-terapii" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "How it works", name: "howItWorks", widget: "string" }

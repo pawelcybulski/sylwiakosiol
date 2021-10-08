@@ -14,8 +14,12 @@ export const pageQuery = graphql`
         title
 				subtitle
 				howItWorks
-				aboutHeading
-				aboutText
+				aboutTherapy {
+					aboutItem {
+						aboutHeading
+						aboutText
+					}
+				}
       }
     }
   }
@@ -44,6 +48,12 @@ const TherapyPage = ({ data }) => {
 				</div>
 				<div class="therapy_about-list">
 					<ol>
+						{frontmatter.aboutTherapy.map(({ aboutItem, index }) => (
+							<li key={index}>
+								<h3>{aboutItem.aboutHeading}</h3>
+								<p>{aboutItem.aboutText}</p>
+							</li>
+						))}
 					</ol>
 				</div>
 				<div class="home-how">
