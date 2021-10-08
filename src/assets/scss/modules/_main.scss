@@ -1,5 +1,5 @@
 .container {
-	max-width: 1280px;
+	max-width: rem-calc(1280px);
 }
 
 .social-icons {
@@ -16,7 +16,7 @@
     }
   }
   @media (max-width: $breakpoint-lg) {
-    font-size: 20px;
+    font-size: rem-calc(20px);
   }
 }
 
@@ -26,7 +26,7 @@
 
 .site-header {
 	justify-content: space-between;
-	max-width: 1440px;
+	max-width: rem-calc(1280px);
 	margin: 0 auto;
 
 	svg {
@@ -54,64 +54,45 @@
 
 	&_title {
     margin: 0;
-    font-size: 70px;
+    font-size: rem-calc(70px);
     text-transform: uppercase;
     line-height: 1;
     font-weight: 500;
-    letter-spacing: 15px;
+    letter-spacing: rem-calc(15px);
 	}
 
 	&_subtitle {
 		margin: 0;
-    padding: 30px 0 0px;
-    font-size: 37px;
+    padding: rem-calc(30px 0 0px);
+    font-size: rem-calc(37px);
     line-height: 1;
     font-weight: 200;
-    letter-spacing: 15px;
+    letter-spacing: rem-calc(15px);
 	}
 
 	&_special {
 		font-family: 'playlistscript';
-		font-size: 70px;
+		font-size: rem-calc(70px);
 		transform: rotateZ(-5deg);			
-	}
-
-	.tk-blob {
-		position: absolute;
-    top: initial;
-    left: initial;
-    width: 500px;
-    z-index: -1;
-		--amount: 4;
-		--fill: #e91e63;
-		animation: blob-turn var(--time, 120s) linear infinite;
-	}
-
-	.tk-blob svg {
-		animation: blob-skew calc( var(--time, 120s) * 0.5) linear 0s infinite;
-	}
-
-	.tk-blob svg path {
-		animation: blob-scale calc( var(--time, 120s) * 0.5) ease-in-out 0s infinite;
 	}
 }
 
 .home-about {
 	&_header {
 		h2 {
-			font-size: 50px;
+			font-size: rem-calc(50px);
 			font-weight: 200;
 		}
 	}
 
 	&_image {
-		flex: 1 0 400px;
+		flex: 1 0 rem-calc(400px);
 
 		img {
-			max-width: 400px;
-			max-height: 400px;
+			max-width: rem-calc(400px);
+			max-height: rem-calc(400px);
 			margin: 0 auto;
-			border: 20px solid #e91e63;
+			border: rem-calc(20px) solid #e91e63;
 			border-radius: 50%;
 		}
 	}
@@ -121,13 +102,13 @@
 	}
 
 	&_desc {
-		padding-left: 50px;
+		padding-left: rem-calc(50px);
 
 		p {
-			font-size: 22px;
+			font-size: rem-calc(22px);
 			line-height: 1.6em;
 			text-transform: none;
-			letter-spacing: 1px;
+			letter-spacing: rem-calc(1px);
 			font-weight: normal;
 			font-style: italic;
 			color: #ae9e98;

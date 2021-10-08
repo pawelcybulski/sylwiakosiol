@@ -1,0 +1,86 @@
+.therapy {
+	.tk-blob {
+		width: rem-calc(225px);
+	}
+
+	&_header {
+		padding: rem-calc(200px 0);
+		text-align: center;
+
+		h1 {
+			font-size: rem-calc(70px);
+			text-transform: uppercase;
+			line-height: 1;
+			font-weight: 500;
+			letter-spacing: rem-calc(15px);
+
+			small {
+				display: block;
+				width: rem-calc(330px);
+				margin: 0 auto;
+				padding: rem-calc(10px 0 0px);
+				font-size: rem-calc(35px);
+				line-height: 1.4;
+				font-weight: 200;
+				letter-spacing: rem-calc(5px);
+			}
+		}
+	}
+
+	&_blob {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			width: rem-calc(140px);
+			font-size: rem-calc(38px);
+		}
+	}
+
+	&_about-list {
+		max-width: rem-calc(1024px);
+    margin: 0 auto;
+		ol {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			counter-reset: custom-counter;
+		}
+
+		li {
+			position: relative;
+			padding-left: rem-calc(80px);
+			padding-bottom: rem-calc(50px );
+			counter-increment: custom-counter;
+		}
+
+		li::before {
+			content: counter(custom-counter);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: rem-calc(35px);
+			height: rem-calc(35px);
+			padding: rem-calc(30px);
+			position: absolute;
+			left: 0;
+			top: 0;
+			background-color: #000;
+			border-radius: 50%;
+			font-family: 'playlistscript';
+			font-size: rem-calc(55px);
+			color: #fff;
+			font-weight: 800;
+		}
+
+		strong {
+			font-size: rem-calc(25px);
+		}
+
+		p {
+			font-size: rem-calc(20px);
+		}
+	}
+}
