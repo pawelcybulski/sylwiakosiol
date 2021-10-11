@@ -4,8 +4,23 @@
 	}
 
 	&_header {
-		padding: rem-calc(200px 0);
+		padding: rem-calc(200px 0 0);
 		text-align: center;
+
+		&--left {
+			position: relative;
+		}
+
+		&--right {
+			height: rem-calc(700px);
+
+			img {
+				position: absolute;
+				width: rem-calc(900px);
+				right: rem-calc(-150px);
+				left: auto;
+			}
+		}
 
 		h1 {
 			font-size: rem-calc(70px);
@@ -28,10 +43,12 @@
 	}
 
 	&_blob {
-		position: relative;
+		position: absolute;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		right: rem-calc(150px);
+		bottom: rem-calc(200px);
 
 		p {
 			width: rem-calc(140px);
@@ -54,6 +71,10 @@
 			padding-left: rem-calc(80px);
 			padding-bottom: rem-calc(50px );
 			counter-increment: custom-counter;
+
+			&:first-child {
+				padding-right: 35%;
+			}
 		}
 
 		li::before {

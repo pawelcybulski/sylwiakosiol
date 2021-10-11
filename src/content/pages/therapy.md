@@ -4,6 +4,7 @@ slug: /o-terapii
 title: TERAPIA
 subtitle: POZNAWCZO-BEHAWIORALNA
 howItWorks: JAK TO DZIAŁA?
+heroImage: /assets/therapy-hero.png
 aboutTherapy:
   - aboutItem:
       aboutHeading: Odkrywasz swoje myśli i znaczenie jakie im nadajesz.
