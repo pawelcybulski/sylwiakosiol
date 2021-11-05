@@ -8,7 +8,12 @@
 		text-align: center;
 
 		&--left {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
 			position: relative;
+			z-index: 1;
 		}
 
 		&--right {
@@ -17,6 +22,7 @@
 			img {
 				position: absolute;
 				width: rem-calc(900px);
+				top: rem-calc(-130px);
 				right: rem-calc(-150px);
 				left: auto;
 			}
@@ -43,12 +49,10 @@
 	}
 
 	&_blob {
-		position: absolute;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		right: rem-calc(150px);
-		bottom: rem-calc(200px);
+		margin-top: rem-calc(80px);
 
 		p {
 			width: rem-calc(140px);
@@ -57,7 +61,7 @@
 	}
 
 	&_about-list {
-		max-width: rem-calc(1024px);
+		max-width: rem-calc(1248px);
     margin: 0 auto;
 		ol {
 			padding: 0;
@@ -102,6 +106,95 @@
 
 		p {
 			font-size: rem-calc(20px);
+		}
+	}
+
+	.gatsby-image-wrapper {
+		overflow: visible;
+	}
+
+	&-types {
+		&_header {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: rem-calc(200px);
+			text-align: center;
+
+			h2 {
+				font-size: rem-calc(60px);
+				letter-spacing: rem-calc(7px);
+			}
+
+			p {
+				font-size: rem-calc(32px);
+				font-weight: 200;
+			}
+		}
+
+		&_mid {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-size: rem-calc(26px);
+				font-weight: 300;
+				position: relative;
+			}
+
+			.text-float-left {
+				position: absolute;
+				left: rem-calc(9px);
+				top: rem-calc(35px);
+			}
+
+			.text-special {
+				position: absolute;
+				left: rem-calc(70px);
+				top: rem-calc(-5px);
+				font-size: rem-calc(85px);
+				font-weight: 200;
+				font-family: 'playlistscript';
+			}
+
+			.text-float-right {
+				position: absolute;
+				top: rem-calc(90px);
+			}
+		}
+
+		&_list {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			padding-top: rem-calc(100px);
+
+			&-item {
+				position: relative;
+				font-size: rem-calc(30px);
+				padding-bottom: rem-calc(30px);
+				line-height: 1.4;
+				
+
+				&::before, &::after {
+					content: "";
+					position: absolute;
+					width: rem-calc(33px);
+					height: rem-calc(33px);
+					background-color: #de6a99;
+					left: rem-calc(-55px);
+					top: rem-calc(5px);
+					border-radius: 50%;
+				}
+
+				&::after {
+					background-color: transparent;
+					border: rem-calc(1px) solid #ae3e63;
+					left: rem-calc(-52px);
+					top: rem-calc(3px);
+				}
+			}
 		}
 	}
 }

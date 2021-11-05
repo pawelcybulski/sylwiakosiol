@@ -136,6 +136,28 @@ collections:
               fields:
                 - { label: "Heading", name: "aboutHeading", widget: "string" }
                 - { label: "Text", name: "aboutText", widget: "string" }
+          - label: "Help links"
+            name: "helpLinks"
+            widget: "list"
+            fields:
+            - label: List item
+              name: helpLink
+              widget: object
+              fields:
+                - { label: "Link text", name: "helpLinkText", widget: "string" }
+                - { label: "Link href", name: "helpHref", widget: "string" }
+          - label: "Therapy types"
+            name: "therapyType"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "therapyTypeTitle", widget: "string" }
+              - { label: "Subtitle", name: "therapyTypeSubtitle", widget: "string" }
+              - { label: "ID", name: "therapyTypeId", widget: "string" }
+              - { label: "Image", name: "therapyTypeImage", widget: "image" }
+              - label: "Therapy List"
+                name: "therapyTypeList"
+                widget: "list"
+                field: { label: "Text", name: "therapyListText", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "About"
         name: "about"

@@ -97,11 +97,16 @@
 .site-logo {
   font-weight: bold;
   a {
+		display: flex;
     color: #fff;
     text-decoration: none;
     &:hover {
       color: #fff;
     }
+
+		svg {
+			width: 220px;
+		}
   }
   @media (max-width: $breakpoint-lg) {
     font-size: 20px;
