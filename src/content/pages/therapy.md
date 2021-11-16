@@ -3,8 +3,10 @@ template: therapy-page
 slug: /o-terapii
 title: TERAPIA
 subtitle: POZNAWCZO-BEHAWIORALNA
-howItWorks: JAK TO DZIAŁA?
+howItWorks: JAK TO <small>DZIAŁA?</small>
 heroImage: /assets/therapy-hero.png
+aboutTherapyTitle: JAK MOGĘ <small>POMÓC?</small>
+aboutTherapyImage: /assets/therapy-about.png
 aboutTherapy:
   - aboutItem:
       aboutHeading: Odkrywasz swoje myśli i znaczenie jakie im nadajesz.

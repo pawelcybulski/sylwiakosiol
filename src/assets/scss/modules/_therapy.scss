@@ -1,8 +1,4 @@
 .therapy {
-	.tk-blob {
-		width: rem-calc(225px);
-	}
-
 	&_header {
 		padding: rem-calc(200px 0 0);
 		text-align: center;
@@ -28,6 +24,29 @@
 			}
 		}
 
+		&--help {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			font-size: rem-calc(50px);
+
+			small {
+				font-size: rem-calc(25px);
+				letter-spacing: rem-calc(7px);
+				font-weight: 200;
+			}
+		}
+
+		&--help_image {
+			img {
+				width: auto;
+				height: 135%;
+				top: -35%;
+				z-index: -1;
+			}
+		}
+
 		h1 {
 			font-size: rem-calc(70px);
 			text-transform: uppercase;
@@ -46,23 +65,33 @@
 				letter-spacing: rem-calc(5px);
 			}
 		}
+
+		h2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			font-size: rem-calc(50px);
+
+			small {
+				font-size: rem-calc(25px);
+				letter-spacing: rem-calc(7px);
+				font-weight: 200;
+			}
+		}
 	}
 
 	&_blob {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: rem-calc(80px);
-
-		p {
-			width: rem-calc(140px);
-			font-size: rem-calc(38px);
-		}
+		margin-top: rem-calc(20px);
 	}
 
 	&_about-list {
 		max-width: rem-calc(1248px);
     margin: 0 auto;
+
 		ol {
 			padding: 0;
 			margin: 0;
@@ -109,8 +138,39 @@
 		}
 	}
 
-	.gatsby-image-wrapper {
-		overflow: visible;
+	&_links {
+		padding: rem-calc(200px 0 20px);
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			font-size: rem-calc(25px);
+			letter-spacing: rem-calc(7px);
+		}
+
+		li {
+			position: relative;
+			padding: rem-calc(10px 0px 0px 40px);
+
+			&::before {
+				content: "";
+				position: absolute;
+				width: rem-calc(25px);
+				height: rem-calc(25px);
+				background-color: var(--color-secondary);
+				left: rem-calc(0);
+				top: rem-calc(15px);
+				border-radius: 50%;
+			}
+		}
+
+		a {
+			color: #000;
+
+			&:hover {
+				color: var(--color-secondary);
+			}
+		}
 	}
 
 	&-types {
@@ -190,11 +250,19 @@
 
 				&::after {
 					background-color: transparent;
-					border: rem-calc(1px) solid #ae3e63;
+					border: rem-calc(1px) solid var(--color-primary);
 					left: rem-calc(-52px);
 					top: rem-calc(3px);
 				}
 			}
 		}
+	}
+
+	.tk-blob {
+		width: rem-calc(190px);
+	}
+
+	.gatsby-image-wrapper {
+		overflow: visible;
 	}
 }

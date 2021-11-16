@@ -5,7 +5,7 @@
 	width: rem-calc(400px);
 	z-index: -1;
 	--amount: 4;
-	--fill: #d75879;
+	--fill: var(--color-primary);
 	animation: blob-turn var(--time, 100s) linear infinite;
 
 	svg {
@@ -14,5 +14,9 @@
 
 	path {
 		animation: blob-scale calc( var(--time, 100s) * 0.5) ease-in-out 0s infinite;
+	}
+
+	&--alt {
+		--fill: var(--color-secondary);
 	}
 }

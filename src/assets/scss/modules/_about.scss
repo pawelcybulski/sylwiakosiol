@@ -1,0 +1,74 @@
+.about {
+	&_header {
+		padding: rem-calc(200px 0 0);
+		text-align: center;
+
+		&--left {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+      padding-top: rem-calc(20px);
+			position: relative;
+			z-index: 1;
+		}
+
+		&--right {
+			height: rem-calc(700px);
+
+			img {
+				position: absolute;
+				width: rem-calc(600px);
+        width: rem-calc(700px);
+				top: rem-calc(-100px);
+				right: rem-calc(0);
+				left: auto;
+			}
+		}
+		h1 {
+			font-size: rem-calc(70px);
+			text-transform: uppercase;
+			line-height: 1;
+			font-weight: 500;
+			letter-spacing: rem-calc(15px);
+
+			small {
+				display: block;
+				width: rem-calc(330px);
+				margin: 0 auto;
+				padding: rem-calc(10px 0 0px);
+				font-size: rem-calc(65px);
+				line-height: 1.4;
+				font-weight: 200;
+				letter-spacing: rem-calc(15px);
+			}
+		}
+
+		h2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			font-size: rem-calc(50px);
+
+			small {
+				font-size: rem-calc(25px);
+				letter-spacing: rem-calc(7px);
+				font-weight: 200;
+			}
+		}
+  }
+
+  &_know-me-text {
+    padding-top: rem-calc(150px);
+  }
+  
+	.tk-blob {
+		width: rem-calc(190px);
+	}
+
+  .gatsby-image-wrapper {
+    overflow-x: visible;
+    overflow-y: clip;
+	}
+}
