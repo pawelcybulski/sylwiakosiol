@@ -3,9 +3,9 @@
     "title": "Sylwia Kosioł",
     "titleTemplate": "%s",
     "description": "Psychoterapia",
-    "siteUrl": "https://cos.pl",
-    "image": "",
-    "iconimage": "",
+    "siteUrl": "https://foundation.stackrole.com",
+    "image": "/assets/stackrole.png",
+    "iconimage": "/assets/stackrole.png",
     "twitterUsername": ""
   },
   "ga": "UA-XXXXXXXXX-X"
