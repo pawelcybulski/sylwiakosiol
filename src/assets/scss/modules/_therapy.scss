@@ -196,6 +196,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			margin-top: rem-calc(-50px);
 
 			p {
 				font-size: rem-calc(26px);
@@ -222,13 +223,17 @@
 				position: absolute;
 				top: rem-calc(90px);
 			}
+
+			img {
+				height: rem-calc(350px);
+				width: auto;
+			}
 		}
 
 		&_list {
 			list-style: none;
 			padding: 0;
 			margin: 0;
-			padding-top: rem-calc(100px);
 
 			&-item {
 				position: relative;
