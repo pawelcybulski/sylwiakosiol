@@ -148,7 +148,7 @@ collections:
                 - { label: "Link href", name: "helpHref", widget: "string" }
           - label: "Therapy type"
             name: "therapyTypes"
-            widget: "object"
+            widget: "list"
             fields:
             - label: "Therapy type"
               name: "therapyType"
