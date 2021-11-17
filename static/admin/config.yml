@@ -153,7 +153,7 @@ collections:
             fields:
             - label: "Therapy type"
               name: "therapyType"
-              summary: "Type"
+              summary: "Fields"
               widget: "object"
               fields:
                 - { label: "Title", name: "therapyTypeTitle", widget: "string" }
@@ -178,10 +178,12 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - label: "About"
             name: "aboutPage"
+            summary: "Section"
             widget: "list"
             fields:
               - label: "Sections"
                 name: "aboutSection"
+                summary: "Fields"
                 widget: object
                 fields:
                   - { label: "Title", name: "aboutSectionTitle", widget: "string" }
