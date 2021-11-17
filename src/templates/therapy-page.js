@@ -49,9 +49,7 @@ export const pageQuery = graphql`
               }
             }
             therapyTypeList {
-              therapyListItem {
-                therapyListText
-              }
+              therapyListText
             }
           }
         }
@@ -174,9 +172,9 @@ const TherapyPage = ({ data }) => {
 							)}
 						</div>
 						<ul class="therapy-types_list">
-							{therapyType.therapyTypeList.map(({ therapyListItem, index }) => (
+							{therapyType.therapyTypeList.map(({ therapyListText, index }) => (
 								<li key={index} class="therapy-types_list-item">
-									{therapyListItem.therapyListText}
+									{therapyListText}
 								</li>
 							))}
 						</ul>

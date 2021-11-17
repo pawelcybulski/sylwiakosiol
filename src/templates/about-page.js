@@ -31,9 +31,6 @@ export const pageQuery = graphql`
 const AboutPage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-		const knowMeImage = frontmatter.knowMeImage
-	? frontmatter.knowMeImage.childImageSharp.gatsbyImageData
-	: ""
 
   return (
     <Layout className="about">

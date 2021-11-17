@@ -128,20 +128,24 @@ collections:
           - { label: "How it works", name: "howItWorks", widget: "string" }
           - label: "About therapy"
             name: "aboutTherapy"
+            summary: "List item"
             widget: "list"
             fields:
             - label: List item
               name: aboutItem
+              summary: "Fields"
               widget: object
               fields:
                 - { label: "Heading", name: "aboutHeading", widget: "string" }
                 - { label: "Text", name: "aboutText", widget: "string" }
           - label: "Help links"
             name: "helpLinks"
+            summary: "Link"
             widget: "list"
             fields:
             - label: List item
               name: helpLink
+              summary: "Fields"
               widget: object
               fields:
                 - { label: "Link text", name: "helpLinkText", widget: "string" }
