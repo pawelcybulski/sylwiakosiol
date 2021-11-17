@@ -1,9 +1,11 @@
 ---
 template: about-page
 slug: /o-mnie
-title: SYLWIA
-subtitle: KOSIOŁ
-knowMe: POZNAJ <small>MNIE</small>
-knowMeImage: /assets/SK3.jpeg
-knowMeText: text
+title: O mnie
+aboutPage:
+  - aboutSection:
+      aboutSectionTitle: SYLWIA <small>KOSIOŁ</small>
+      aboutSectionSubtitle: POZNAJ <small>MNIE</small>
+      aboutSectionImage: /assets/SK3.jpeg
+      aboutSectionContent: text
 ---

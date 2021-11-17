@@ -171,10 +171,18 @@ collections:
             }
           - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Know me", name: "knowMe", widget: "string" }
-          - { label: "Know me image", name: "knowMeImage", widget: "image" }
-          - { label: "Know me text", name: "knowMeText", widget: "text"}
+          - label: "About"
+            name: "aboutPage"
+            widget: "list"
+            fields:
+              - label: "Sections"
+                name: "aboutSection"
+                widget: object
+                fields:
+                  - { label: "Title", name: "aboutSectionTitle", widget: "string" }
+                  - { label: "Subtitle", name: "aboutSectionSubtitle", widget: "string" }
+                  - { label: "Image", name: "aboutSectionImage", widget: "image" }
+                  - { label: "Content", name: "aboutSectionContent", widget: "markdown" }
       - label: "Contact"
         name: "contact"
         file: "src/content/pages/contact.md"
