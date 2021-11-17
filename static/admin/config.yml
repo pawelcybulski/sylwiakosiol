@@ -146,19 +146,22 @@ collections:
               fields:
                 - { label: "Link text", name: "helpLinkText", widget: "string" }
                 - { label: "Link href", name: "helpHref", widget: "string" }
-          - label: "Therapy types"
-            name: "therapyType"
-            widget: "list"
+          - label: "Therapy type"
+            name: "therapyTypes"
+            widget: "object"
             fields:
-              - { label: "Title", name: "therapyTypeTitle", widget: "string" }
-              - { label: "Subtitle", name: "therapyTypeSubtitle", widget: "string" }
-              - { label: "ID", name: "therapyTypeId", widget: "string" }
-              - { label: "Image", name: "therapyTypeImage", widget: "image" }
-              - label: "Therapy List"
-                name: "therapyTypeList"
-                widget: "list"
-                field: { label: "Text", name: "therapyListText", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+            - label: "Therapy type"
+              name: "therapyType"
+              widget: "object"
+              fields:
+                - { label: "Title", name: "therapyTypeTitle", widget: "string" }
+                - { label: "Subtitle", name: "therapyTypeSubtitle", widget: "string" }
+                - { label: "ID", name: "therapyTypeId", widget: "string" }
+                - { label: "Image", name: "therapyTypeImage", widget: "image" }
+                - label: "Therapy List"
+                  name: "therapyTypeList"
+                  widget: "list"
+                  field: { label: "Text", name: "therapyListText", widget: "string" }
       - label: "About"
         name: "about"
         file: "src/content/pages/about.md"
