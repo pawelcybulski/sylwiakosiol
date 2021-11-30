@@ -1,0 +1,40 @@
+.register {
+  &_content {
+    position: relative;
+    font-size: rem-calc(24px);
+  }
+
+  &_iframe {
+    width: 100%;
+    height: rem-calc(500px);
+    border: 0;
+  }
+
+  .therapy_header--right {
+    position: relative;
+    z-index: -1;
+  }
+
+  .therapy_header--right img {
+    top: rem-calc(-270px);
+    transform: scaleX(-1);
+  }
+
+  .therapy_blob {
+    position: absolute;
+  }
+
+  .therapy_header--left {
+    justify-content: center;
+    align-self: flex-start;
+    padding-top: rem-calc(70px);
+  }
+
+  .therapy_header--right {
+    height: rem-calc(530px);
+  }
+
+.tk-blob {
+    width: rem-calc(320px);
+  }
+}

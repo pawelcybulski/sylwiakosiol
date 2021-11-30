@@ -1,19 +1,42 @@
 ---
 template: index-page
 slug: /
-title: Skuteczna
-tagline: psychoterapia
+pretitle: skuteczna
+title: psychoterapia
+subtitle: dla ciebie
 heroImage: /assets/home-hero.png
 ctaFirst:
-  ctaText: unów wizytę
-  ctaLink: /about
+  ctaText: umów wizytę
+  ctaLink: /rejestracja
 ctaSecond:
   ctaText: Jak to działa?
-  ctaLink: /about
-aboutHomeImage: /assets/home-about.png
+  ctaLink: /0-terapii
+aboutHomeImage: /assets/SK1.jpeg
 aboutTitle: Certyfikowana psychoterapeutka poznawczo-behawioralna
-aboutDesc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis au.
+aboutDesc: Nazywam się Sylwia Kosioł, jestem psychologiem oraz certyfikowaną psychoterapeutką poznawczo-behawioralną. Szkołę terapii ukończyłam z wyróżnieniem. Podczas spotkań ze mną możesz skorzystać z terapii indywidualnej lub terapii par.Oprócz pracy typowo poznawczo-behawioralnej prowadzę również terapię schematów
 ctaAbout:
-  ctaText: Więcej
-  ctaLink: /about
+  ctaText: dowiedz się więcej
+  ctaLink: /o-mnie
+aboutTherapyTitle: TERAPIA <small>POZNAWCZO-BEHAWIORALNA</small>
+aboutTherapySubtitle: JAK MOGĘ <small>POMÓC?</small>
+aboutTherapyImage: /assets/therapy-about.png
+helpLinks:
+  - helpLink:
+      helpLinkText: CHCĘ NAPRAWIĆ RELACJE
+      helpHref: "/o-terapii#Relation"
+  - helpLink:
+      helpLinkText: CIERPIĘ NA DEPRESJĘ
+      helpHref: "/o-terapii#Depression"
+  - helpLink:
+      helpLinkText: NIE RADZĘ SOBIE ZE STRESEM
+      helpHref: "/o-terapii#Stress"
+  - helpLink:
+      helpLinkText: MĘCZĄ MNIE NATRĘCTWA
+      helpHref: "/o-terapii#Obsessiveness"
+  - helpLink:
+      helpLinkText: PRZYTŁACZA MNIE LĘK
+      helpHref: "/o-terapii#Anxiety"
+  - helpLink:
+      helpLinkText: CHCĘ WZMOCNIĆ SAMOOCENĘ
+      helpHref: "/o-terapii#SelfEsteem"
 ---

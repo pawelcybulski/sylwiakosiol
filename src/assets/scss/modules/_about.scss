@@ -25,10 +25,11 @@
 				left: auto;
 			}
 		}
+
 		h2 {
 			font-size: rem-calc(70px);
 			text-transform: uppercase;
-			line-height: 1;
+			line-height: .5;
 			font-weight: 500;
 			letter-spacing: rem-calc(15px);
 
@@ -36,20 +37,21 @@
 				display: block;
 				width: rem-calc(330px);
 				margin: 0 auto;
-				padding: rem-calc(10px 0 0px);
+				padding: 0;
 				font-size: rem-calc(65px);
 				line-height: 1.4;
 				font-weight: 200;
-				letter-spacing: rem-calc(15px);
+				letter-spacing: rem-calc(5px);
 			}
 		}
-
-		h3 {
+		
+		h1 {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
 			font-size: rem-calc(50px);
+			letter-spacing: rem-calc(15px);
 
 			small {
 				font-size: rem-calc(25px);
@@ -59,8 +61,28 @@
 		}
   }
 
+	&_blob {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: rem-calc(20px);
+	}
+
   &_know-me-text {
     padding-top: rem-calc(150px);
+		font-size: rem-calc(24px);
+
+		h4 {
+			font-weight: bold;
+		}
+
+		p {
+			padding-bottom: rem-calc(25px);
+		}
+
+		a {
+			margin-left: rem-calc(15px);
+		}
   }
   
 	.tk-blob {

@@ -4,11 +4,12 @@
 @import "lib/css-grid-utility";
 @import "lib/blobz.min.scss";
 
-// .primary-container {
+.primary-container {
+  overflow-x: hidden;
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
 // 	min-height: 100vh;
-// }
+}
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
@@ -263,9 +264,9 @@ article img {
 // Buttons
 .button {
   min-width: 130px;
-  height: 40px;
+  height: auto;
   color: #fff;
-  padding: 5px 10px;
+  padding: 10px 35px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -274,15 +275,18 @@ article img {
   outline: none;
   border: 1px solid #222;
   background: transparent;
-	text-align: center;
+  box-sizing: content-box;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
 
 	&:hover {
 		color: #fff;
 	}
 
 	&:hover:after {
-		top: 0;
-		left: 0;
+		top: 5px;
+		left: 5px;
 	}
 
 	&:after {
@@ -291,10 +295,10 @@ article img {
 		z-index: -1;
 		position: absolute;
 		height: 100%;
-		top: 5px;
-		left: 5px;
+		top: 0;
+		left: 0;
 		transition: 0.2s;
-		background-color: #e91e63;
+		background-color: #000;
 	}
 }
 
@@ -445,4 +449,5 @@ article img {
 @import "modules/main";
 @import "modules/therapy";
 @import "modules/about";
+@import "modules/register";
 @import "modules/blob";

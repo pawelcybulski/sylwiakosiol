@@ -75,8 +75,9 @@ collections:
               default: "index-page",
             }
           - { label: "Slug", name: "slug", widget: "hidden", default: "/" }
+          - { label: "Pretitle", name: "pretitle", widget: "string" }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Featured Image", name: "featuredImage", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
           - label: "First link"
@@ -112,6 +113,20 @@ collections:
                 widget: "string"
           - { label: "About title", name: "aboutTitle", widget: "string" }
           - { label: "About desc", name: "aboutDesc", widget: "string" }
+          - { label: "About therapy title", name: "aboutTherapyTitle", widget: "string" }
+          - { label: "About therapy subtitle", name: "aboutTherapySubtitle", widget: "string" }
+          - label: "Help links"
+            name: "helpLinks"
+            summary: "Link"
+            widget: "list"
+            fields:
+            - label: List item
+              name: helpLink
+              summary: "Fields"
+              widget: object
+              fields:
+                - { label: "Link text", name: "helpLinkText", widget: "string" }
+                - { label: "Link href", name: "helpHref", widget: "string" }
       - label: "Therapy"
         name: "therapy"
         file: "src/content/pages/therapy.md"
@@ -138,18 +153,16 @@ collections:
               fields:
                 - { label: "Heading", name: "aboutHeading", widget: "string" }
                 - { label: "Text", name: "aboutText", widget: "string" }
-          - label: "Help links"
-            name: "helpLinks"
-            summary: "Link"
-            widget: "list"
+          - label: "Link"
+            name: "aboutTherapyCta"
+            widget: "object"
             fields:
-            - label: List item
-              name: helpLink
-              summary: "Fields"
-              widget: object
-              fields:
-                - { label: "Link text", name: "helpLinkText", widget: "string" }
-                - { label: "Link href", name: "helpHref", widget: "string" }
+              - name: "ctaText"
+                label: "CTA text"
+                widget: "string"
+              - name: "ctaLink"
+                label: "CTA Link"
+                widget: "string"
           - label: "Therapy types"
             name: "therapyTypes"
             summary: "Section"
@@ -183,34 +196,35 @@ collections:
           - label: "About"
             name: "aboutPage"
             summary: "Section"
-            widget: "list"
+            widget: "object"
             fields:
               - label: "Sections"
                 name: "aboutSection"
                 summary: "Fields"
-                widget: object
+                widget: list
                 fields:
                   - { label: "Title", name: "aboutSectionTitle", widget: "string" }
                   - { label: "Subtitle", name: "aboutSectionSubtitle", widget: "string" }
                   - { label: "Image", name: "aboutSectionImage", widget: "image" }
                   - { label: "Content", name: "aboutSectionContent", widget: "markdown" }
-      - label: "Contact"
-        name: "contact"
+      - label: "Register"
+        name: "register"
         file: "src/content/pages/contact.md"
         fields:
           - {
               label: "Template",
               name: "template",
               widget: "hidden",
-              default: "contact-page",
+              default: "register-page",
             }
           - {
               label: "Slug",
               name: "slug",
               widget: "hidden",
-              default: "/contact",
+              default: "/register",
             }
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Title", name: "registerTitle", widget: "string" }
+          - { label: "Image", name: "registerHero", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
   - name: settings
     label: Settings

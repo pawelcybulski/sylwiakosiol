@@ -29,25 +29,9 @@ aboutTherapy:
       aboutText: Skuteczność oddziaływań terapeutycznych CBT jest potwierdzona w
         badaniach naukowych. Jest to terapia krótkoterminowa, skoncentrowana na
         rozwiązywaniu aktualnych problemów i opiera się na współpracy.
-helpLinks:
-  - helpLink:
-      helpLinkText: CHCĘ NAPRAWIĆ RELACJE
-      helpHref: "#Relation"
-  - helpLink:
-      helpLinkText: CIERPIĘ NA DEPRESJĘ
-      helpHref: "#Depression"
-  - helpLink:
-      helpLinkText: NIE RADZĘ SOBIE ZE STRESEM
-      helpHref: "#Stress"
-  - helpLink:
-      helpLinkText: MĘCZĄ MNIE NATRĘCTWA
-      helpHref: "#Obsessiveness"
-  - helpLink:
-      helpLinkText: PRZYTŁACZA MNIE LĘK
-      helpHref: "#Anxiety"
-  - helpLink:
-      helpLinkText: CHCĘ WZMOCNIĆ SAMOOCENĘ
-      helpHref: "#SelfEsteem"
+aboutTherapyCta:
+  ctaText: umów wizytę
+  ctaLink: /rejestracja
 therapyTypes:
   - therapyType:
       therapyTypeTitle: CHCĘ
@@ -141,7 +125,5 @@ therapyTypes:
             ci prosić innych o pomoc.
         - therapyListText: Czujesz się przytłoczony problemami innych osób, trudno ci
             zadbać o własne potrzeby, czujesz, że inni o ciebie nie dbają.
-aboutTherapyTitle: JAK MOGĘ <small>POMÓC?</small>
-aboutTherapyImage: /assets/therapy-about.png
 ---
 Empty
