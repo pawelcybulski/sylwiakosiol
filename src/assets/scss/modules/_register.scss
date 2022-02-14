@@ -26,6 +26,7 @@
 
   .therapy_blob {
     position: absolute;
+    margin-top: rem-calc(40px);
   }
 
   .therapy_header--left {
@@ -69,6 +70,11 @@
         }
       }
     }
+
+    .therapy_blob {
+      top: 0;
+    }
+
     .therapy_header--right {
       height: auto;
     }
