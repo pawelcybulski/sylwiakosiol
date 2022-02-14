@@ -160,6 +160,18 @@ body .about {
 	body .about {
 		&_header {
 			padding-top: 0;
+	
+			&--right {
+				height: auto;
+	
+				img {
+					position: absolute;
+					width: 100%;
+					top: 0;
+					right: 0;
+					left: 0;
+				}
+			}
 
 			h1 {
 				font-size: rem-calc(35px);

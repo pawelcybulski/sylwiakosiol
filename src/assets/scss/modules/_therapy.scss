@@ -415,6 +415,18 @@ body .therapy {
 					font-size: rem-calc(20px);
 				}
 			}
+
+			&--right {
+				height: auto;
+	
+				img {
+					position: absolute;
+					width: 100%;
+					top: 0;
+					right: 0;
+					left: 0;
+				}
+			}
 		}
 
 		&_about-list {
