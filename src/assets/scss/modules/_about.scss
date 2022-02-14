@@ -1,6 +1,6 @@
 .about {
 	&_header {
-		padding: rem-calc(200px 0 0);
+		padding: 10vh 0 0;
 		text-align: center;
 
 		&--left {
@@ -26,10 +26,10 @@
 			}
 		}
 
-		h2 {
+		h1 {
 			font-size: rem-calc(70px);
 			text-transform: uppercase;
-			line-height: .5;
+			line-height: 1;
 			font-weight: 500;
 			letter-spacing: rem-calc(15px);
 
@@ -37,15 +37,15 @@
 				display: block;
 				width: rem-calc(330px);
 				margin: 0 auto;
-				padding: 0;
-				font-size: rem-calc(65px);
+				padding: rem-calc(10px 0 0px);
+				font-size: rem-calc(35px);
 				line-height: 1.4;
 				font-weight: 200;
 				letter-spacing: rem-calc(5px);
 			}
 		}
 		
-		h1 {
+		h2 {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -54,7 +54,7 @@
 			letter-spacing: rem-calc(15px);
 
 			small {
-				font-size: rem-calc(25px);
+				font-size: rem-calc(30px);
 				letter-spacing: rem-calc(7px);
 				font-weight: 200;
 			}
@@ -81,7 +81,9 @@
 		}
 
 		a {
-			margin-left: rem-calc(15px);
+			margin-right: rem-calc(15px);
+			transition: color .4s ease;
+			color: var(--color-secondary);
 		}
   }
   
@@ -92,5 +94,104 @@
   .gatsby-image-wrapper {
     overflow-x: visible;
     overflow-y: clip;
+	}
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+	.home-about {
+		&_image {
+			.gatsby-image-wrapper {
+				width: rem-calc(310px);
+			}
+		}
+		&_desc {
+			padding-right: 0;
+
+			p {
+				padding-right: 0;
+				font-size: rem-calc(16px);
+			}
+		}
+		&_header {
+			h2 {
+				font-size: rem-calc(22px);
+			}
+		}
+	}
+}
+
+@media (max-width: $breakpoint-md) {
+	.home-about {
+		&_content {
+			flex-direction: column;
+		}
+
+		&_image {
+			.gatsby-image-wrapper {
+				width: 100%;
+				height: rem-calc(380px);
+			}
+		}
+
+		&_desc {
+			padding: 0;
+			text-align: center;
+
+			p {
+				padding: 0;
+				text-align: center;
+				font-size: rem-calc(16px);
+				padding-bottom: rem-calc(20px);
+			}
+		}
+
+		&_header {
+			h2 {
+				font-size: rem-calc(18px);
+				text-align: center;
+			}
+		}
+	}
+
+	.about {
+		&_header {
+			padding-top: 0;
+
+			h1 {
+				font-size: rem-calc(35px);
+
+				small {
+					font-size: rem-calc(25px);
+				}
+			}
+
+			h2 {
+				font-size: rem-calc(30px);
+
+				small {
+					font-size: rem-calc(20px);
+				}
+			}
+		}
+
+		&_know-me-text {
+			padding-top: 0;
+			font-size: rem-calc(20px);
+
+			p span {
+				display: block;
+			}
+
+			a {
+				transition: color .4s ease;
+				font-size: rem-calc(18px);
+				margin: rem-calc(10px 0px);
+				display: block;
+			}
+		}
+
+		.tk-blob {
+			width: rem-calc(150px);
+		}
 	}
 }

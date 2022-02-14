@@ -1,6 +1,6 @@
 .therapy {
 	&_header {
-		padding: rem-calc(200px 0 0);
+		padding: 10vh 0 0;
 		text-align: center;
 
 		&--left {
@@ -8,6 +8,7 @@
 			flex-direction: column;
 			justify-content: flex-start;
 			align-items: center;
+			padding-top: rem-calc(20px);
 			position: relative;
 			z-index: 1;
 		}
@@ -165,6 +166,7 @@
 
 	&_links {
 		padding: rem-calc(200px 0 20px);
+
 		ul {
 			margin: 0;
 			padding: 0;
@@ -191,6 +193,7 @@
 
 		a {
 			color: #000;
+			transition: color .4s ease;
 
 			&:hover {
 				color: var(--color-secondary);
@@ -203,7 +206,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			padding-top: rem-calc(200px);
+			padding-top: rem-calc(50px);
 			text-align: center;
 
 			h2 {
@@ -262,7 +265,7 @@
 
 			&-item {
 				position: relative;
-				font-size: rem-calc(30px);
+				font-size: rem-calc(22px);
 				padding-bottom: rem-calc(30px);
 				line-height: 1.4;
 				
@@ -294,5 +297,210 @@
 
 	.gatsby-image-wrapper {
 		overflow: visible;
+	}
+}
+
+@media (max-width: $breakpoint-lg) {
+	.therapy {
+		&_header {
+			padding-top: rem-calc(20px);
+
+			h2 {
+				font-size: rem-calc(26px);
+				text-align: center;
+			}
+
+			h2 small {
+				text-align: center;
+				font-size: rem-calc(16px);
+			}
+
+			h3 {
+				font-size: rem-calc(18px);
+				margin: 0;
+			}
+
+			&--right {
+				height: auto;
+			}
+		}
+
+		&_links {
+			padding: 0;
+
+			.grids {
+				grid-row-gap: rem-calc(10px);
+				grid-column-gap: rem-calc(10px);		
+			}
+
+			ul {
+				font-size: rem-calc(13px);
+			}
+
+			li {
+				max-width: 100%;
+				padding: rem-calc(14px 0px 0px 25px);
+			}
+
+			li::before {
+				width: rem-calc(15px);
+				height: rem-calc(15px);
+			}
+		}
+
+		.tk-blob {
+			width: rem-calc(120px);
+		}
+	}
+
+	.home .therapy_header--right img {
+		width: 100%;
+    height: auto;
+    right: 0;
+    top: 0;
+	}
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+	.home .therapy_header--right img {
+		width: 40vw;
+	}
+
+	.home .therapy_header--left {
+		padding-top: rem-calc(40px);
+	}
+}
+
+@media (max-width: rem-calc(1125px)) {
+	.therapy_links {
+		padding-top: rem-calc(10px);
+	}
+}
+
+@media (max-width: $breakpoint-md) {
+	.therapy {
+		&_header {
+			padding-top: 0;
+
+			h1 {
+				font-size: rem-calc(35px);
+
+				small {
+					font-size: rem-calc(25px);
+				}
+			}
+
+			h2 {
+				font-size: rem-calc(30px);
+
+				small {
+					font-size: rem-calc(20px);
+				}
+			}
+		}
+
+		&_about-list {
+
+			ol {
+				padding-top: rem-calc(20px);
+			}
+	
+			li {
+				padding-left: 0;
+				padding-bottom: rem-calc(20px);
+	
+				&:first-child {
+					padding-right: 0;
+				}
+			}
+	
+			li::before {
+				width: rem-calc(50px);
+				height: rem-calc(50px);
+				padding: rem-calc(15px);
+				font-size: rem-calc(35px);
+			}
+	
+			h3 {
+				padding-top: rem-calc(9px);
+				padding-bottom: rem-calc(10px);
+			}
+	
+			strong {
+				font-size: rem-calc(20px);
+				padding-left: rem-calc(60px);
+				line-height: 2;
+			}
+	
+			p {
+				font-size: rem-calc(18px);
+			}
+		}
+
+		&-types {
+			&_header {
+				padding-top: rem-calc(50px);
+	
+				h2 {
+					font-size: rem-calc(26px);
+				}
+	
+				p {
+					font-size: rem-calc(16px);
+				}
+			}
+	
+			&_mid {
+				flex-direction: column;
+				margin-top: 0;
+	
+				p {
+					height: rem-calc(120px);
+					width: rem-calc(227px);
+					margin-top: rem-calc(50px);
+					font-size: rem-calc(20px);
+				}
+	
+				img {
+					height: auto;
+					max-height: rem-calc(260px);
+					width: 100%;
+					margin-bottom: rem-calc(40px);
+					margin-top: rem-calc(30px);
+				}
+			}
+	
+			&_list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+	
+				&-item {
+					position: relative;
+					font-size: rem-calc(22px);
+					padding-bottom: rem-calc(30px);
+					line-height: 1.4;
+					
+	
+					&::before, &::after {
+						content: "";
+						position: absolute;
+						width: rem-calc(33px);
+						height: rem-calc(33px);
+						background-color: #de6a99;
+						left: rem-calc(-55px);
+						top: rem-calc(5px);
+						border-radius: 50%;
+					}
+	
+					&::after {
+						background-color: transparent;
+						border: rem-calc(1px) solid var(--color-primary);
+						left: rem-calc(-52px);
+						top: rem-calc(3px);
+					}
+				}
+			}
+		}
 	}
 }

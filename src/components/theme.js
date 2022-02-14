@@ -11,12 +11,10 @@ const Theme = () => {
         onClick={e => {
           setColorMode(colorMode === "default" ? "dark" : "default")
         }}
+        className="theme-switch"
       >
         <div sx={themeStyles.modeIcons}>
           <div>{colorMode === "default" ? <FiMoon /> : <FiSun />}</div>
-          <div sx={themeStyles.modeText}>
-            {colorMode === "default" ? "Dark" : "Light"}
-          </div>
         </div>
       </button>
     </div>
@@ -32,7 +30,6 @@ const themeStyles = {
       border: "none",
       cursor: "pointer",
       mt: "-5px",
-      p: "0 20px 0 0",
       "&:hover": {
         color: "#bea9b3",
       },

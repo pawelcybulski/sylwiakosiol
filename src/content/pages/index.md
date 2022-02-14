@@ -15,7 +15,7 @@ aboutHomeImage: /assets/SK1.jpeg
 aboutTitle: Certyfikowana psychoterapeutka poznawczo-behawioralna
 aboutDesc: Nazywam się Sylwia Kosioł, jestem psychologiem oraz certyfikowaną psychoterapeutką poznawczo-behawioralną. Szkołę terapii ukończyłam z wyróżnieniem. Podczas spotkań ze mną możesz skorzystać z terapii indywidualnej lub terapii par.Oprócz pracy typowo poznawczo-behawioralnej prowadzę również terapię schematów
 ctaAbout:
-  ctaText: dowiedz się więcej
+  ctaText: poznajmy się!
   ctaLink: /o-mnie
 aboutTherapyTitle: TERAPIA <small>POZNAWCZO-BEHAWIORALNA</small>
 aboutTherapySubtitle: JAK MOGĘ <small>POMÓC?</small>
@@ -23,20 +23,20 @@ aboutTherapyImage: /assets/therapy-about.png
 helpLinks:
   - helpLink:
       helpLinkText: CHCĘ NAPRAWIĆ RELACJE
-      helpHref: "/o-terapii#Relation"
+      helpHref: "/o-terapii/typy-terapii#Relation"
   - helpLink:
       helpLinkText: CIERPIĘ NA DEPRESJĘ
-      helpHref: "/o-terapii#Depression"
+      helpHref: "/o-terapii/typy-terapii#Depression"
   - helpLink:
       helpLinkText: NIE RADZĘ SOBIE ZE STRESEM
-      helpHref: "/o-terapii#Stress"
+      helpHref: "/o-terapii/typy-terapii#Stress"
   - helpLink:
       helpLinkText: MĘCZĄ MNIE NATRĘCTWA
-      helpHref: "/o-terapii#Obsessiveness"
+      helpHref: "/o-terapii/typy-terapii#Obsessiveness"
   - helpLink:
       helpLinkText: PRZYTŁACZA MNIE LĘK
-      helpHref: "/o-terapii#Anxiety"
+      helpHref: "/o-terapii/typy-terapii#Anxiety"
   - helpLink:
       helpLinkText: CHCĘ WZMOCNIĆ SAMOOCENĘ
-      helpHref: "/o-terapii#SelfEsteem"
+      helpHref: "/o-terapii/typy-terapii#SelfEsteem"
 ---

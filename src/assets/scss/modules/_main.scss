@@ -20,10 +20,6 @@
   }
 }
 
-.site-navigation a[aria-current="page"] {
-	color: var(--theme-ui-colors-fontsColour);
-}
-
 .site-header {
 	justify-content: space-between;
 	max-width: rem-calc(1280px);
@@ -32,10 +28,6 @@
 	svg {
 		color: var(--theme-ui-colors-fontsColour);
 	}
-}
-
-.site-navigation a {
-	color: var(--theme-ui-colors-fontsColour);
 }
 
 .home-banner {
@@ -75,11 +67,18 @@
 		.anchor {
 			display: flex;
 			align-items: center;
+
+			&:hover {
+				svg {
+					margin-right: 0;
+				}
+			}
 		}
 
 		svg {
 			font-size: rem-calc(30px);
 			margin-right: rem-calc(10px);
+			transition: margin-right .4s ease;
 		}
 	}
 
@@ -146,12 +145,11 @@
 
 		p {
 			padding-bottom: rem-calc(50px);
-			padding-right: 100px;
 			font-size: rem-calc(18px);
 			line-height: 1.6em;
 			text-transform: none;
 			letter-spacing: rem-calc(1px);
-			font-weight: 200;
+			font-weight: 400;
 		}
 	}
 }
@@ -169,4 +167,55 @@
 	color: #000;
 	font-size: rem-calc(18px);
 	font-weight: 800;
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+	.home-banner {
+		&_text {
+			padding-top: 5vh;
+	
+			h1 {
+				font-size: rem-calc(34px);
+			}
+	
+			p {
+				font-size: rem-calc(20px);
+			}
+		}
+
+		&_links {
+			bottom: -100%;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-md) {
+	.site-header {
+		padding-top: 0;
+	}
+	
+	.home-banner {
+		&_text {
+			padding-top: 5vh;
+	
+			h1 {
+				font-size: rem-calc(26px);
+				text-align: center;
+				letter-spacing: rem-calc(10px);
+			}
+	
+			p {
+				font-size: rem-calc(16px);
+				text-align: center;
+				letter-spacing: rem-calc(10px);
+			}
+		}
+
+		&_links {
+			width: 100%;
+			max-width: 700px;
+			position: relative;
+			bottom: 0;
+		}
+	}
 }

@@ -38,3 +38,46 @@
     width: rem-calc(320px);
   }
 }
+
+@media (max-width: $breakpoint-lg) {
+  .register {
+    &_content {
+      font-size: rem-calc(20px);
+    }
+
+    .therapy_header {
+      padding-top: 0;
+    
+      h1 {
+        font-size: rem-calc(35px);
+    
+        small {
+          font-size: rem-calc(25px);
+        }
+      }
+    
+      h2 {
+        font-size: rem-calc(30px);
+    
+        small {
+          font-size: rem-calc(20px);
+        }
+      }
+    }
+    .therapy_header--right {
+      height: auto;
+    }
+
+    .therapy_header--right img {
+      width: 90vw;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 30vh;
+    }
+
+    .tk-blob {
+      width: rem-calc(190px);
+    }
+  }
+}
