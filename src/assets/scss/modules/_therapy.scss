@@ -363,6 +363,20 @@
     right: 0;
     top: 0;
 	}
+	li.therapy-types_list-item::before {
+		content: "";
+		display: inline-block;
+		margin-right: rem-calc(10px);
+		position: relative;
+		left: 0;
+		top: rem-calc(8px);
+	}
+
+	li.therapy-types_list-item::after {
+		position: absolute;
+		left: 0;
+		top: rem-calc(6px);
+	}
 }
 
 @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
