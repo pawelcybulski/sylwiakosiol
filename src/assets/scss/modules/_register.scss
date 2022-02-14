@@ -1,4 +1,4 @@
-div.register {
+.register {
   &_content {
     position: relative;
     font-size: rem-calc(24px);
@@ -38,13 +38,14 @@ div.register {
     height: rem-calc(530px);
   }
 
-.tk-blob {
+  .tk-blob {
     width: rem-calc(320px);
+    top: rem-calc(-40px);
   }
 }
 
 @media (max-width: $breakpoint-lg) {
-  div.register {
+.register {
     &_content {
       font-size: rem-calc(20px);
     }
