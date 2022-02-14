@@ -6,12 +6,12 @@ import { FiMoon, FiSun } from "react-icons/fi"
 const Theme = () => {
   const [colorMode, setColorMode] = useColorMode()
   return (
-    <div sx={themeStyles.modeOption}>
+    <div className="theme_switch-wrapp" sx={themeStyles.modeOption}>
       <button
         onClick={e => {
-          setColorMode(colorMode === "default" ? "light" : "default")
+          setColorMode(colorMode === "default" ? "dark" : "default")
         }}
-        className="theme-switch"
+        className="theme_switch"
       >
         <div sx={themeStyles.modeIcons}>
           <div>{colorMode === "default" ? <FiMoon /> : <FiSun />}</div>

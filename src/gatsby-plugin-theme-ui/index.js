@@ -1,5 +1,4 @@
 import defaultColors from "../util/default-colors.json"
-import darkColors from "../util/dark-theme-colors.json"
 import { lightness } from "@theme-ui/color"
 const theme = {
   colors: {
@@ -19,26 +18,6 @@ const theme = {
     buttonColor: "#fff",
     buttonHoverBg: lightness("siteColor", 0.4),
     buttonHoverColor: lightness("siteColor", 0.8),
-    modes: {
-      dark: {
-        text: "#fff",
-        background: "#222",
-        primary: "#252525",
-        accent: "#5C2941",
-        muted: "rgba(255, 255, 255, 0.7)",
-        cardBg: "#252525",
-        borderColor: "#888",
-        labelText: "#777",
-        inputBorder: "#777",
-        inputBackground: "#333",
-        socialIcons: lightness("siteColor", 0.5),
-        socialIconsHover: lightness("siteColor", 0.9),
-        buttonColor: "#FFF",
-        buttonHoverBg: lightness("siteColor", 0.3),
-        buttonHoverColor: lightness("siteColor", 0.9),
-        ...darkColors,
-      },
-    },
   },
   links: {
     postLink: {

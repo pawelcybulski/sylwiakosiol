@@ -1,4 +1,4 @@
-.register {
+div.register {
   &_content {
     position: relative;
     font-size: rem-calc(24px);
@@ -8,6 +8,10 @@
     width: 100%;
     height: rem-calc(500px);
     border: 0;
+  }
+
+  .gatsby-image-wrapper {
+    overflow: visible;
   }
 
   .therapy_header--right {
@@ -40,7 +44,7 @@
 }
 
 @media (max-width: $breakpoint-lg) {
-  .register {
+  div.register {
     &_content {
       font-size: rem-calc(20px);
     }
@@ -77,7 +81,8 @@
     }
 
     .tk-blob {
-      width: rem-calc(190px);
+      width: rem-calc(120px);
+      top: 0;
     }
   }
 }
