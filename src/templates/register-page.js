@@ -40,7 +40,7 @@ const Register = ({ data }) => {
     <Layout className="therapy register">
       <Seo
         title="Sylwia Kosioł | Rejestracja"
-        description={frontmatter.registerTitle + " " + site.siteMetadata.title}
+        description="Rejestracja"
       />
 			<div className="therapy_header grids col-1 sm-2">
 				<div className="therapy_header--left">
@@ -58,7 +58,7 @@ const Register = ({ data }) => {
 					{registerHero ? (
 						<GatsbyImage
 							image={registerHero}
-							alt={frontmatter.registerTitle + " - Featured image"}
+							alt="Rejestracja"
 							className="featured-image"
 						/>
 					) : (

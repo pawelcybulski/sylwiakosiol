@@ -11,7 +11,7 @@
   }
 
   .gatsby-image-wrapper {
-    overflow: visible;
+    overflow: visible !important;
   }
 
   .therapy_header--right {
@@ -26,13 +26,14 @@
 
   .therapy_blob {
     position: absolute;
-    margin-top: rem-calc(40px);
+    top: 0;
+    margin-top: 0;
   }
 
   .therapy_header--left {
     justify-content: center;
     align-self: flex-start;
-    padding-top: rem-calc(70px);
+    padding-top: rem-calc(20px);
   }
 
   .therapy_header--right {
@@ -46,7 +47,7 @@
 }
 
 @media (max-width: $breakpoint-lg) {
-.register {
+  .register {
     &_content {
       font-size: rem-calc(20px);
     }
