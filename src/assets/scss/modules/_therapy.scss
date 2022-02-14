@@ -305,7 +305,7 @@ body .therapy {
 }
 
 @media (max-width: $breakpoint-lg) {
-	.therapy {
+	body .therapy {
 		&_header {
 			padding-top: rem-calc(20px);
 
@@ -396,7 +396,7 @@ body .therapy {
 }
 
 @media (max-width: $breakpoint-md) {
-	.therapy {
+	body .therapy {
 		&_header {
 			padding-top: 0;
 

@@ -47,7 +47,7 @@ body .register {
 }
 
 @media (max-width: $breakpoint-lg) {
-  .register {
+  body .register {
     &_content {
       font-size: rem-calc(20px);
     }
