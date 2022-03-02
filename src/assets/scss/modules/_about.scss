@@ -254,7 +254,24 @@ body .about {
 		padding-left: 0;
 	}
 
+	body .about_section:nth-child(2) h2, body .about_section:nth-child(3) h2 {
+		font-size: rem-calc(34px);
+
+		small {
+			font-size: rem-calc(20px);
+		}
+	}
+
 	body .about .gatsby-image-wrapper img {
 		// max-height: 30vh;
+	}
+
+	body .about_know-me-text {
+		font-size: rem-calc(18px);
+	}
+
+	body .about_know-me-text h4 {
+		font-size: rem-calc(22px);
+		margin: rem-calc(10px 0);
 	}
 }
