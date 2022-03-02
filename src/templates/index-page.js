@@ -103,7 +103,7 @@ const HomePage = ({ data }) => {
           <p>{frontmatter.subtitle}</p>
           <div className="description" dangerouslySetInnerHTML={{ __html: html }}/>
 
-					<div className="home-banner_links">
+					<div className="home-banner_links show_on-desktop">
 						<Link
 							to={frontmatter.ctaFirst.ctaLink}
 							className="button"
@@ -131,6 +131,22 @@ const HomePage = ({ data }) => {
             ""
           )}
         </div>
+					<div className="home-banner_links show_on-mobile">
+						<Link
+							to={frontmatter.ctaFirst.ctaLink}
+							className="button"
+						>
+							{frontmatter.ctaFirst.ctaText}
+						</Link>
+
+						<Link
+							to={frontmatter.ctaSecond.ctaLink}
+							className="anchor"
+						>
+              <BsArrowRight />
+              {frontmatter.ctaSecond.ctaText}
+						</Link>
+					</div>
       </div>
 			<div className="home-about">
 				<div className="home-about_content">
@@ -164,7 +180,7 @@ const HomePage = ({ data }) => {
 			<div className="home therapy therapy_header grids col-1 sm-2">
 				<div className="therapy_header--left">
           <h2 className="therapy_header--help" dangerouslySetInnerHTML={{ __html: frontmatter.aboutTherapyTitle }}></h2>
-					<div className="therapy_blob">
+					<div className="therapy_blob show_on-desktop">
 						<div className="tk-blob tk-blob--alt">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 303.2">
 								<path d="M260.2 41.4c20 29.2 14.6 74.5 7.2 124.4-7.3 49.9-16.6 104.5-49.2 126-32.5 21.6-88.4 10.2-132-15.2s-75-64.7-83.6-107.8C-6.1 125.7 8 79 36.3 47.8 64.5 16.7 107 1.3 150.9.1c43.9-1.1 89.3 12 109.3 41.3z"></path>
@@ -184,6 +200,14 @@ const HomePage = ({ data }) => {
 						""
 					)}
 				</div>
+        <div className="therapy_blob show_on-mobile">
+          <div className="tk-blob tk-blob--alt">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 303.2">
+              <path d="M260.2 41.4c20 29.2 14.6 74.5 7.2 124.4-7.3 49.9-16.6 104.5-49.2 126-32.5 21.6-88.4 10.2-132-15.2s-75-64.7-83.6-107.8C-6.1 125.7 8 79 36.3 47.8 64.5 16.7 107 1.3 150.9.1c43.9-1.1 89.3 12 109.3 41.3z"></path>
+            </svg>
+          </div>
+          <h3 dangerouslySetInnerHTML={{ __html: frontmatter.aboutTherapySubtitle }}></h3>
+        </div>
 			</div>
 			<div className="therapy_links">
 				<ul className="grids col-2 sm-3">

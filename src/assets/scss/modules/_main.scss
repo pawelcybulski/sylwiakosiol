@@ -220,6 +220,41 @@
 	}
 }
 
+@media (max-width: $breakpoint-sm) {
+	.home-banner_links {
+		padding: rem-calc(20px 50px);
+	}
+
+	.home-banner_image {
+		text-align: center;
+	}
+
+	.home-banner .featured-image {
+		max-width: 80%;
+	}
+	
+	.home-about_image img {
+		top: 0;
+	}
+	
+	body .therapy_header {
+		text-align: center;
+	}
+
+	body .therapy .gatsby-image-wrapper {
+		max-width: 80%;
+	}
+	
+	body .therapy_blob {
+		margin-top: 0;
+		margin-bottom: rem-calc(50px);
+	}
+
+	body .therapy_header--right img {
+		max-width: 80%;
+	}
+}
+
 .theme_switch-wrapp, .css-rwm00c-Layout {
 	display: none;
 }

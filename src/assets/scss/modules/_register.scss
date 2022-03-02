@@ -1,13 +1,30 @@
 body .register {
+  &_wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: rem-calc(40px);
+  }
   &_content {
+    padding-right: rem-calc(40px);
     position: relative;
-    font-size: rem-calc(24px);
+    font-size: rem-calc(22px);
+
+    h2 {
+      font-size: rem-calc(22px);
+    }
+
+    a {
+      color: var(--color-secondary);
+    }
+
+    p {
+      padding-bottom: rem-calc(15px);
+    }
   }
 
   &_iframe {
-    width: 100%;
-    height: rem-calc(500px);
     border: 0;
+    height: rem-calc(240px);
   }
 
   .gatsby-image-wrapper {
@@ -92,5 +109,27 @@ body .register {
       width: rem-calc(120px);
       top: 0;
     }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  body .register .gatsby-image-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  body .register .therapy_header--right img {
+    height: 22vh;
+    max-width: 100%;
+    width: 100%;
+    top: rem-calc(-10px);
+  }
+
+  body .register_wrap {
+    flex-direction: column;
+  }
+
+  body .register_content {
+    padding-bottom: rem-calc(30px);
   }
 }

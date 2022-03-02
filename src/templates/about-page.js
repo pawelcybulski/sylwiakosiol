@@ -15,7 +15,6 @@ export const pageQuery = graphql`
         aboutPage {
           aboutSection {
             aboutSectionTitle
-            aboutSectionSubtitle
             aboutSectionImage {
               childImageSharp {
                 gatsbyImageData
@@ -38,33 +37,23 @@ const AboutPage = ({ data }) => {
 
 			{frontmatter.aboutPage.map(({ aboutSection, index }) => (
 				<div key={index} className="about_section">
-					<div className="about_header grids col-1 sm-2">
-						<div className="about_header--left">
-							<h1 dangerouslySetInnerHTML={{ __html: aboutSection.aboutSectionTitle }}></h1>
-							{aboutSection.aboutSectionSubtitle ? (
-								<div className="about_blob">
-									<div className="tk-blob tk-blob--alt">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 303.2">
-											<path d="M260.2 41.4c20 29.2 14.6 74.5 7.2 124.4-7.3 49.9-16.6 104.5-49.2 126-32.5 21.6-88.4 10.2-132-15.2s-75-64.7-83.6-107.8C-6.1 125.7 8 79 36.3 47.8 64.5 16.7 107 1.3 150.9.1c43.9-1.1 89.3 12 109.3 41.3z"></path>
-										</svg>
-									</div>
-									<h2 dangerouslySetInnerHTML={{ __html: aboutSection.aboutSectionSubtitle }}></h2>
-								</div>
-							) : (
-								""
-							)}
+					{aboutSection.aboutSectionTitle ? (
+						<div className="about_section-title">
+							<h2 dangerouslySetInnerHTML={{ __html: aboutSection.aboutSectionTitle }}></h2>
 						</div>
-						<div className="about_header--right">
-							{aboutSection.aboutSectionImage ? (
-								<GatsbyImage
-									image={aboutSection.aboutSectionImage.childImageSharp.gatsbyImageData}
-									alt="Featured image"
-									className="featured-image"
-								/>
-							) : (
-								""
-							)}
-						</div>
+					) : (
+						""
+					)}
+					<div className="about_header">
+						{aboutSection.aboutSectionImage ? (
+							<GatsbyImage
+								image={aboutSection.aboutSectionImage.childImageSharp.gatsbyImageData}
+								alt="Featured image"
+								className="featured-image"
+							/>
+						) : (
+							""
+						)}
 					</div>
 					<div className="about_know-me-text" dangerouslySetInnerHTML={{ __html: aboutSection.aboutSectionContent }}>
 					</div>

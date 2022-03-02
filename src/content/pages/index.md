@@ -10,7 +10,7 @@ ctaFirst:
   ctaLink: /rejestracja
 ctaSecond:
   ctaText: Jak to działa?
-  ctaLink: /0-terapii
+  ctaLink: /o-terapii
 aboutHomeImage: /assets/SK1.jpeg
 aboutTitle: Certyfikowana psychoterapeutka poznawczo-behawioralna
 aboutDesc: Nazywam się Sylwia Kosioł, jestem psychologiem oraz certyfikowaną psychoterapeutką poznawczo-behawioralną. Szkołę terapii ukończyłam z wyróżnieniem. Podczas spotkań ze mną możesz skorzystać z terapii indywidualnej lub terapii par.Oprócz pracy typowo poznawczo-behawioralnej prowadzę również terapię schematów

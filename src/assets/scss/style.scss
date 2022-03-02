@@ -465,6 +465,30 @@ article img {
   }
 }
 
+@media (max-width: $breakpoint-sm) {
+  .show_on {
+    &-desktop {
+      display: none !important;
+    }
+
+    &-mobile {
+      display: flex !important;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-sm + 1) {
+  .show_on {
+    &-desktop {
+      display: flex !important;
+    }
+
+    &-mobile {
+      display: none !important;
+    }
+  }
+}
+
 // Libraries
 @import "lib/prism-default";
 

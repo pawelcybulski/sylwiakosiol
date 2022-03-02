@@ -66,11 +66,13 @@ const Register = ({ data }) => {
 					)}
 				</div>
 			</div>
-      <div
-        className="register_content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-      <iframe src="https://pan-test.nakiedy.pl/em/?h=754" id="nakiedyWidget" className="register_iframe"></iframe>
+      <div className="register_wrap">
+        <div
+          className="register_content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        <iframe className="register_iframe" id="widget-preview-iframe" src="//widgets.znanylekarz.pl/doctor/widget/big/sylwia-kosiol?opinion=false"></iframe>
+      </div>
     </Layout>
   )
 }
