@@ -242,12 +242,17 @@
 	}
 
 	body .therapy .gatsby-image-wrapper {
-		max-width: 80%;
+		max-width: 100%;
 	}
 	
 	body .therapy_blob {
 		margin-top: 0;
 		margin-bottom: rem-calc(50px);
+	}
+
+	body .therapy_header--right {
+		height: rem-calc(370px);
+    margin-top: rem-calc(-40px);
 	}
 
 	body .therapy_header--right img {
