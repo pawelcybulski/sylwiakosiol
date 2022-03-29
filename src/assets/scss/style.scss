@@ -24,6 +24,7 @@
 }
 .site-navigation {
   ul {
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -151,12 +152,17 @@
   }
 }
 .social-icons {
-  font-size: rem-calc(35px);
+  font-size: rem-calc(25px);
   display: flex;
-  gap: rem-calc(16px);
-  margin-top: rem-calc(80px);
+  margin-top: 0;
+  
+  a {
+    display: flex;
+    height: auto;
+  }
+
   @media (max-width: $breakpoint-md) {
-    margin-top: rem-calc(40px);
+    margin-top: 0;
   }
 }
 .home-posts {

@@ -2,8 +2,10 @@
 import { jsx } from "theme-ui"
 import React from "react"
 import { Link } from "gatsby"
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
+import { RiMenu3Line, RiCloseLine, RiInstagramFill, } from "react-icons/ri"
 import Theme from "../components/theme"
+import Icons from "../util/socialmedia.json"
+
 
 const MenuItems = [
   {
@@ -52,6 +54,19 @@ class Navigation extends React.Component {
         {menuItem.title}
       </ListLink>
     ))
+    const sIcons = Icons.socialIcons.map((icons, index) => {
+      return (
+        <div key={"social icons" + index}>
+          {icons.icon === "instagram" ? (
+            <Link to={icons.url} target="_blank">
+              <RiInstagramFill />
+            </Link>
+          ) : (
+            ""
+          )}
+        </div>
+      )
+    })
     return (
       <nav className="site-navigation" sx={navStyle.menu}>
         <button
@@ -71,6 +86,9 @@ class Navigation extends React.Component {
           <div sx={navStyle.theme}>
             <Theme />
           </div>
+          <li  className="social-icons" sx={indexStyles.socialIcons}>
+            {sIcons}
+          </li>
         </ul>
       </nav>
     )
@@ -94,4 +112,15 @@ const navStyle = {
     borderTop: "1px solid transparent",
     display: ["block", "block", "block", "none"],
   },
+}
+
+const indexStyles = {
+  socialIcons: {
+    "a":{
+      color: "socialIcons",
+      ":hover":{
+        color:"socialIconsHover",
+      }
+    }
+  }
 }

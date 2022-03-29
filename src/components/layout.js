@@ -60,6 +60,6 @@ const layoutStyle = {
   nav: {
     display: "flex",
     alignItems: "center",
-    gap: 4,
+    gap: 0,
   },
 }

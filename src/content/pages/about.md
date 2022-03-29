@@ -43,7 +43,7 @@ aboutPage:
         </br>
         W zaciszu domowym również otaczam się zielenią.
         </br>
-        W wolnym czasie prowadzę profil psychoedukacyjny na instagramie.
+        W wolnym czasie prowadzę profil psychoedukacyjny na <a href="https://www.instagram.com/psychoterapia.cbt/" target="_blank">Instagramie.</a>
         </br>
         Cały rok można minąć mknącą po wrocławskich ścieżkach rowerowych.</p>
         <a href="/rejestracja">Obecnie przyjmuję wyłącznie ONLINE.</a>
