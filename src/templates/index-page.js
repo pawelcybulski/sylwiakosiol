@@ -3,10 +3,29 @@ import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { BsArrowRight } from "react-icons/bs"
+import {
+  RiFacebookBoxFill,
+  RiTwitterFill,
+  RiLinkedinBoxFill,
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiRssFill,
+  RiGithubFill,
+  RiTelegramFill,
+  RiPinterestFill,
+  RiSnapchatFill,
+  RiSkypeFill,
+  RiDribbbleFill,
+  RiMediumFill,
+  RiBehanceFill,
+} from "react-icons/ri"
+import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
+import Icons from "../util/socialmedia.json"
+
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -93,6 +112,124 @@ const HomePage = ({ data }) => {
 	const aboutTherapyImage = frontmatter.aboutTherapyImage
     ? frontmatter.aboutTherapyImage.childImageSharp.gatsbyImageData
     : ""
+  const sIcons = Icons.socialIcons.map((icons, index) => {
+    return (
+      <div key={"social icons" + index}>
+        {icons.icon === "facebook" ? (
+          <Link to={icons.url} target="_blank">
+            <RiFacebookBoxFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "twitter" ? (
+          <Link to={icons.url} target="_blank">
+            <RiTwitterFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "linkedin" ? (
+          <Link to={icons.url} target="_blank">
+            <RiLinkedinBoxFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "youtube" ? (
+          <Link to={icons.url} target="_blank">
+            <RiYoutubeFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "instagram" ? (
+          <Link to={icons.url} target="_blank">
+            <RiInstagramFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "rss" ? (
+          <Link to={icons.url} target="_blank">
+            <RiRssFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "github" ? (
+          <Link to={icons.url} target="_blank">
+            <RiGithubFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "telegram" ? (
+          <Link to={icons.url} target="_blank">
+            <RiTelegramFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "pinterest" ? (
+          <Link to={icons.url} target="_blank">
+            <RiPinterestFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "snapchat" ? (
+          <Link to={icons.url} target="_blank">
+            <RiSnapchatFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "skype" ? (
+          <Link to={icons.url} target="_blank">
+            <RiSkypeFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "wordpress" ? (
+          <Link to={icons.url} target="_blank">
+            <FaWordpress />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "dribbble" ? (
+          <Link to={icons.url} target="_blank">
+            <RiDribbbleFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "medium" ? (
+          <Link to={icons.url} target="_blank">
+            <RiMediumFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "behance" ? (
+          <Link to={icons.url} target="_blank">
+            <RiBehanceFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "vk" ? (
+          <Link to={icons.url} target="_blank">
+            <FaVk />
+          </Link>
+        ) : (
+          ""
+        )}
+      </div>
+    )
+  })
   return (
     <Layout>
       <Seo />
@@ -132,6 +269,9 @@ const HomePage = ({ data }) => {
           )}
         </div>
 					<div className="home-banner_links show_on-mobile">
+            <div  className="social-icons" sx={indexStyles.socialIcons}>
+              {sIcons}
+            </div>
 						<Link
 							to={frontmatter.ctaFirst.ctaLink}
 							className="button"
@@ -224,3 +364,15 @@ const HomePage = ({ data }) => {
 }
 
 export default HomePage
+
+
+const indexStyles = {
+  socialIcons: {
+    "a":{
+      color: "socialIcons",
+      ":hover":{
+        color:"socialIconsHover",
+      }
+    }
+  }
+}

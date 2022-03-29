@@ -118,6 +118,10 @@ body .register {
     width: 100%;
   }
 
+  body .register .therapy_header--right {
+    margin-top: rem-calc(20px);
+  }
+
   body .register .therapy_header--right img {
     height: 22vh;
     max-width: 100%;
