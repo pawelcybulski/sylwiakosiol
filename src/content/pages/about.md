@@ -19,7 +19,7 @@ aboutPage:
           <li>nie radzącymi sobie z własnymi emocjami</li>
         </ul>
         <p>Jestem członkiem Polskiego Towarzystwa Psychoterapii Poznawczo-Behawioralnej. Swoją pracę poddaję regularnej superwizji u certyfikowanej superwizorki PTTPB.</p>
-        <p><span>Zobacz:</span> <a target="_blank" href="/assets/sample.pdf">certyfikat psychoterapeuty</a><a target="_blank" href="/assets/sample.pdf">dyplom</a><a target="_blank" href="/assets/sample.pdf">wyróżnienie</a></p>
+        <p><span>Zobacz:</span> <a target="_blank" href="/assets/S.Kosioł Certyfikat psychoterapeuty.pdf">certyfikat psychoterapeuty</a><a target="_blank" href="/assets/S.Kosioł Dyplom.pdf">dyplom</a><a target="_blank" href="/assets/Wyróżnienie.pdf">wyróżnienie</a></p>
   - aboutSection:
       aboutSectionImage: /assets/SK4.jpeg
       aboutSectionContent: >-
