@@ -71,7 +71,7 @@ const Register = ({ data }) => {
           className="register_content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <iframe className="register_iframe" id="widget-preview-iframe" src="//widgets.znanylekarz.pl/doctor/widget/big/sylwia-kosiol?opinion=false"></iframe>
+        <iframe scrolling="no" frameborder="0" id="widget-preview-iframe" src="//www.znanylekarz.pl/ajax/marketing/doctor/widget/big_with_calendar/sylwia-kosiol?hide_branding=true" class="big_with_calendar"></iframe>
       </div>
     </Layout>
   )
