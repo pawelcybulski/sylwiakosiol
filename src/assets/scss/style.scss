@@ -23,6 +23,7 @@
   padding: rem-calc(30px 20px);
 }
 .site-navigation {
+  margin-left: rem-calc(10px);
   ul {
     display: flex;
     list-style: none;
@@ -70,6 +71,9 @@
       }
       .icon-menu-close {
         display: flex;
+        font-size: rem-calc(35px);
+        margin-right: rem-calc(-5px);
+        margin-left: rem-calc(-6px);
       }
     }
     .menu-trigger.is-active + ul {

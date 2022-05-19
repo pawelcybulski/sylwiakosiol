@@ -36,7 +36,7 @@ aboutPage:
           <li>Psycholog-wolontariusz na Oddziale Dziennym Psychiatrycznym w Dolnośląskim Centrum Zdrowia Psychicznego, Wrocław</li>
         </ul>
   - aboutSection:
-      aboutSectionTitle: A PO <br><small>PRACY...</small>
+      aboutSectionTitle: A PO <small>PRACY...</small>
       aboutSectionImage: /assets/SK2.jpeg
       aboutSectionContent: >-
         <p>Prywatnie jestem żoną i mamą. Uwielbiam przebywać wśród natury. Spacery po lasach i dreszczyk emocji podczas grzybobrania to coś zdecydowanie dla mnie.

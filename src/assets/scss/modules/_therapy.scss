@@ -271,7 +271,7 @@ body .therapy {
 				position: relative;
 				font-size: rem-calc(22px);
 				padding-bottom: rem-calc(30px);
-				line-height: 1.4;
+				line-height: 1.5;
 				
 
 				&::before, &::after {
@@ -487,7 +487,9 @@ body .therapy {
 				p {
 					height: rem-calc(120px);
 					width: rem-calc(227px);
-					margin-top: rem-calc(50px);
+					order: 1;
+					margin-top: 0;
+					margin-bottom: rem-calc(20px);
 					font-size: rem-calc(20px);
 				}
 	
@@ -495,7 +497,7 @@ body .therapy {
 					height: auto;
 					max-height: rem-calc(260px);
 					width: 100%;
-					margin-bottom: rem-calc(40px);
+					margin-bottom: rem-calc(30px);
 					margin-top: rem-calc(30px);
 				}
 			}
@@ -507,27 +509,28 @@ body .therapy {
 	
 				&-item {
 					position: relative;
-					font-size: rem-calc(22px);
+					font-size: rem-calc(18px);
 					padding-bottom: rem-calc(30px);
-					line-height: 1.4;
+					padding-left: rem-calc(35px);
+					line-height: 1.5;
 					
 	
 					&::before, &::after {
 						content: "";
 						position: absolute;
-						width: rem-calc(33px);
-						height: rem-calc(33px);
+						width: rem-calc(20px);
+						height: rem-calc(20px);
 						background-color: #de6a99;
-						left: rem-calc(-55px);
-						top: rem-calc(5px);
+						left: rem-calc(0);
+						top: rem-calc(4px);
 						border-radius: 50%;
 					}
 	
 					&::after {
 						background-color: transparent;
 						border: rem-calc(1px) solid var(--color-primary);
-						left: rem-calc(-52px);
-						top: rem-calc(3px);
+						left: rem-calc(2px);
+						top: rem-calc(2px);
 					}
 				}
 			}

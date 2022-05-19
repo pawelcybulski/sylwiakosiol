@@ -100,7 +100,7 @@ body .about {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: rem-calc(20px);
+		margin-top: rem-calc(0);
 	}
 
   &_know-me-text {
@@ -198,10 +198,12 @@ body .about {
 	
 				img {
 					position: absolute;
-					width: 100%;
+					width: 140%;
+					max-width: initial;
 					top: 0;
-					right: 0;
-					left: 0;
+					right: initial;
+					left: 50%;
+					transform: translate(-50%, 0) !important;
 				}
 			}
 
@@ -263,7 +265,7 @@ body .about {
 	}
 
 	body .about .gatsby-image-wrapper img {
-		// max-height: 30vh;
+		margin-bottom: rem-calc(20px);
 	}
 
 	body .about_know-me-text {

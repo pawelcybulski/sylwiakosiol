@@ -13,12 +13,31 @@ body .register {
       font-size: rem-calc(22px);
     }
 
+    h4 {
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-bottom: rem-calc(20px);
+    }
+
+    li {
+      font-size: rem-calc(20px);
+    }
+
     a {
       color: var(--color-secondary);
     }
 
     p {
       padding-bottom: rem-calc(15px);
+    }
+
+    em {
+      display: inline-block;
+      font-style: normal;
+      font-weight: bold;
     }
   }
 
@@ -108,6 +127,22 @@ body .register {
     .tk-blob {
       width: rem-calc(120px);
       top: 0;
+    }
+
+    li {
+      font-size: rem-calc(18px);
+    }
+
+    em {
+      display: inline;
+    }
+
+    p {
+      font-size: rem-calc(18px);
+
+      strong {
+        font-size: rem-calc(20px);
+      }
     }
   }
 }
