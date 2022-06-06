@@ -61,6 +61,17 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1M763MGN9F"></script>
+
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag("js", new Date());
+
+          gtag("config", "G-1M763MGN9F");
+        `}
+      </script>
     </Helmet>
   )
 }

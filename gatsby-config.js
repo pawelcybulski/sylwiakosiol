@@ -81,6 +81,7 @@ module.exports = {
               escapeEntities: {},
             },
           },
+
         ],
       },
     },
@@ -88,12 +89,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-theme-ui",
     `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: settings.ga,
-      },
-    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
