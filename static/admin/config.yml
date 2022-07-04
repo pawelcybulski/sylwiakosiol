@@ -81,8 +81,9 @@ collections:
           - { label: "Featured Image", name: "featuredImage", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
           - label: "First link"
-            name: "cta"
+            name: "ctaFirst"
             widget: "object"
+            required: false
             fields:
               - name: "ctaText"
                 label: "CTA text"
@@ -93,6 +94,7 @@ collections:
           - label: "Second link"
             name: "ctaSecond"
             widget: "object"
+            required: false
             fields:
               - name: "ctaText"
                 label: "CTA text"

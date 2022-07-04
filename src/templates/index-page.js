@@ -105,20 +105,28 @@ const HomePage = ({ data }) => {
           <div className="description" dangerouslySetInnerHTML={{ __html: html }}/>
 
 					<div className="home-banner_links show_on-desktop">
-						<Link
-							to={frontmatter.ctaFirst.ctaLink}
-							className="button"
-						>
-							{frontmatter.ctaFirst.ctaText}
-						</Link>
+            {frontmatter.ctaFirst.ctaLink ? (
+              <Link
+                to={frontmatter.ctaFirst.ctaLink}
+                className="button"
+              >
+                {frontmatter.ctaFirst.ctaText}
+              </Link>
+            ) : (
+              ""
+            )}
 
-						<Link
-							to={frontmatter.ctaSecond.ctaLink}
-							className="anchor"
-						>
-              <BsArrowRight />
-              {frontmatter.ctaSecond.ctaText}
-						</Link>
+            {frontmatter.ctaSecond.ctaLink ? (
+              <Link
+                to={frontmatter.ctaSecond.ctaLink}
+                className="anchor"
+              >
+                <BsArrowRight />
+                {frontmatter.ctaSecond.ctaText}
+              </Link>
+            ) : (
+              ""
+            )}
 					</div>
         </div>
         <div className="home-banner_image">
