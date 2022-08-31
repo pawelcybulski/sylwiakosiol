@@ -88,9 +88,11 @@ collections:
               - name: "ctaText"
                 label: "CTA text"
                 widget: "string"
+                required: false
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
+                required: false
           - label: "Second link"
             name: "ctaSecond"
             widget: "object"
@@ -99,9 +101,11 @@ collections:
               - name: "ctaText"
                 label: "CTA text"
                 widget: "string"
+                required: false
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
+                required: false
           - { label: "About image", name: "aboutHomeImage", widget: "image" }
           - label: "About link"
             name: "ctaAbout"
@@ -111,9 +115,11 @@ collections:
               - name: "ctaText"
                 label: "CTA text"
                 widget: "string"
+                required: false
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
+                required: false
           - { label: "About title", name: "aboutTitle", widget: "string" }
           - { label: "About desc", name: "aboutDesc", widget: "string" }
           - { label: "About therapy title", name: "aboutTherapyTitle", widget: "string" }
@@ -164,9 +170,11 @@ collections:
               - name: "ctaText"
                 label: "CTA text"
                 widget: "string"
+                required: false
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
+                required: false
           - label: "Therapy types"
             name: "therapyTypes"
             summary: "Section"
