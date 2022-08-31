@@ -1,7 +1,7 @@
 ---
 ctaFirst:
   ctaText: umów wizytę
-  ctaLink: ""
+  ctaLink: /rejestracja
 heroImage: /assets/home-hero.png
 template: index-page
 slug: /
