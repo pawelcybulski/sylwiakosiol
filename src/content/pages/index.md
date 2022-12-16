@@ -19,8 +19,8 @@ aboutTitle: Certyfikowana psychoterapeutka poznawczo-behawioralna
 aboutDesc: Nazywam się Sylwia Kosioł, jestem psychologiem oraz certyfikowaną
   psychoterapeutką poznawczo-behawioralną. Szkołę terapii ukończyłam z
   wyróżnieniem. Podczas spotkań ze mną możesz skorzystać z terapii indywidualnej
-  lub terapii par.Oprócz pracy typowo poznawczo-behawioralnej prowadzę również
-  terapię schematów
+  lub terapii par. Oprócz pracy typowo poznawczo-behawioralnej pracuję również w
+  podejściu terapii schematów.
 aboutTherapyTitle: TERAPIA <small>POZNAWCZO-BEHAWIORALNA</small>
 aboutTherapySubtitle: JAK MOGĘ <small>POMÓC?</small>
 helpLinks:
