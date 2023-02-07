@@ -36,7 +36,7 @@ collections:
           label: "Slug",
           name: "slug",
           widget: "string",
-          hint: "url",
+          hint: "Format: /nazwa-posta",
         }
       - {
           label: "Publish Date",
