@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Terapia schematów online – dla kogo
+title: Terapia schematów online – dla kogo?
 slug: terapia-schematów
 date: 2022-12-28 16:20
 description: Terapia schematów - rozpoznaj swoje tryby i schematy i umów się na konsultację
