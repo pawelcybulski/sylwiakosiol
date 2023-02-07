@@ -15,12 +15,12 @@ media_folder: "static/assets"
 public_folder: "/assets"
 
 collections:
-  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Posts" # Used in the UI
     label_singular: "Post" # Used in the UI, ie: "New Post"
     description: >
       Create awesome content here.
-    folder: "src/content/posts"
+    folder: "src/content/blog"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} — {{year}}/{{month}}/{{day}}"
     create: true # Allow users to create new documents in this collection
