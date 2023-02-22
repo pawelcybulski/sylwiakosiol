@@ -6,13 +6,13 @@ date: 2022-12-28 16:20
 description: Terapia schematów - rozpoznaj swoje tryby i schematy i umów się na konsultację
 featuredImage: /assets/ts-online.png
 ---
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -52,9 +52,9 @@ featuredImage: /assets/ts-online.png
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -633,9 +633,9 @@ featuredImage: /assets/ts-online.png
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 10]>
+<!--\\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -662,7 +662,7 @@ featuredImage: /assets/ts-online.png
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\\[endif]-->
+<!\\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -670,13 +670,13 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
 
 <!--EndFragment-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -716,9 +716,9 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1297,9 +1297,9 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 10]>
+<!--\\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1326,7 +1326,7 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\\[endif]-->
+<!\\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -1334,13 +1334,13 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
 
 <!--EndFragment-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -1380,9 +1380,9 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1961,9 +1961,9 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 10]>
+<!--\\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1990,17 +1990,17 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\\[endif]-->
+<!\\\\\\\[endif]-->
 
 <!--StartFragment-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -2040,9 +2040,9 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 9]><xml>
+<!--\\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -2621,9 +2621,9 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\\[endif]-->
+</xml><!\\\\\\\[endif]-->
 
-<!--\\\\\\[if gte mso 10]>
+<!--\\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2650,7 +2650,7 @@ Zauważasz, że w relacjach z innymi powtarzają się te same problemy? Tkwisz w
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\\[endif]-->
+<!\\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -2658,13 +2658,13 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
 
 <!--EndFragment-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -2704,9 +2704,9 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -3285,9 +3285,9 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -3314,7 +3314,7 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -3322,13 +3322,13 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
 
 <!--EndFragment-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -3368,9 +3368,9 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -3949,9 +3949,9 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -3978,7 +3978,7 @@ Terapia schematów jest uznawana za przełom w nowoczesnym leczeniu trudności i
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -3986,13 +3986,13 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
 
 <!--EndFragment-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -4032,9 +4032,9 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -4613,9 +4613,9 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -4642,7 +4642,7 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -4650,13 +4650,13 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
 
 <!--EndFragment-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -4696,9 +4696,9 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -5277,9 +5277,9 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -5306,7 +5306,7 @@ Terapia schematów szczególnie dobrze odpowiada potrzebom osób z głęboko zak
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -5314,13 +5314,13 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
 
 <!--EndFragment-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -5360,9 +5360,9 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -5941,9 +5941,9 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -5970,7 +5970,7 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -5978,13 +5978,13 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
 
 <!--EndFragment-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -6024,9 +6024,9 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 9]><xml>
+<!--\\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -6605,9 +6605,9 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\\[endif]-->
+</xml><!\\\\\\[endif]-->
 
-<!--\\\\\[if gte mso 10]>
+<!--\\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -6634,7 +6634,7 @@ Każdy z nas posiada jakieś schematy, które pomagają nam interpretować róż
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\\[endif]-->
+<!\\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -6654,13 +6654,13 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
 
 <!--EndFragment-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -6700,9 +6700,9 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -6842,14 +6842,7 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="List Continue"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+  
    Name="Message Header"/>
   <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
@@ -7281,9 +7274,9 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 10]>
+<!--\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -7310,7 +7303,7 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\[endif]-->
+<!\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -7318,13 +7311,13 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
 
 <!--EndFragment-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -7364,9 +7357,9 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 9]><xml>
+<!--\\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -7945,9 +7938,9 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\\[endif]-->
+</xml><!\\\\\[endif]-->
 
-<!--\\\\[if gte mso 10]>
+<!--\\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -7974,7 +7967,7 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\\[endif]-->
+<!\\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -7993,7 +7986,6 @@ Celem terapii schematów jest pomoc klientowi w przełamaniu błędnego koła za
 ### **Wyróżnia się osiemnaście dezadaptacyjnych schematów:**
 
 1. D﻿EPRYWACJA EMOCJONALNA– to przekonanie, że potrzeba bycia kochaną/ym nigdy nie zostanie zaspokojona. To poczucie, że własne potrzeby emocjonalne nie są ważne dla innych. Zwykle jest to związane z doświadczeniem w dzieciństwie braku zainteresowania, ciepła, troski i akceptacji ze strony ważnych osób.
-
 2. P﻿ORZUCENIE/NIESTABILNOŚĆ RELACJI – jest silnym wewnętrznym przekonaniem, że bliskie osoby odejdą, opuszczą nas. Zwykle schemat ten związany jest z występowaniem w dzieciństwie częstych wybuchów złości, nieodpowiedzialnych zachowań, opuszczenia ze strony rodziców/opiekunów. 
 
 3﻿. NIEUFNOŚĆ/NADUŻYCIE  – to przekonanie, że inni mogą nas zranić, wykorzystać, oszukać lub poniżyć, które powstaje na kanwie właśnie takich wczesnodziecięcych doświadczeń.
@@ -8032,13 +8024,13 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
 
 <!--EndFragment-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -8078,9 +8070,9 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -8659,9 +8651,9 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -8688,7 +8680,7 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -8696,13 +8688,13 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
 
 <!--EndFragment-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -8742,9 +8734,9 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -9323,9 +9315,9 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -9352,7 +9344,7 @@ Na co dzień schematy pozostają w uśpieniu i jest tak aż do momentu zetknięc
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -9364,13 +9356,13 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
 
 <!--EndFragment-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -9410,9 +9402,9 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -9991,9 +9983,9 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -10020,7 +10012,7 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -10028,13 +10020,13 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
 
 <!--EndFragment-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -10074,9 +10066,9 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -10655,9 +10647,9 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -10684,7 +10676,7 @@ Oprócz trybów nieadaptacyjnych, wyróżniamy jeszcze funkcjonalne, zdrowe tryb
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -10692,13 +10684,13 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
 
 <!--EndFragment-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -10738,9 +10730,9 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -11319,9 +11311,9 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -11348,7 +11340,7 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -11356,13 +11348,13 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
 
 <!--EndFragment-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -11402,9 +11394,9 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -11983,9 +11975,9 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -12012,7 +12004,7 @@ Z uwagi na to, że większość swojego życia funkcjonowałeś/aś w oparciu o 
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
